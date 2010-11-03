@@ -6,22 +6,33 @@ Usage
 =====
     gem dependent my_gem
 
-    --source URL                 Query this source (e.g. http://gemcutter.org)
+    --source URL                 Query this source (e.g. http://rubygems.org)
     --no-progress                Do not show progress
     --fetch-limit N              Fetch specs for max N gems (for fast debugging)
 
 Output
 ======
 
-    $ gem dependent my_gem
-    ... wait a long time(10min ?), fetching specs for 10k gems ...
-    other_gem (1.2.1)
-    even_more (0.0.1)
+    $ gem dependent my_gem --source http://rubygems.org
+    other_gem >= 1.2.1
+    even_more = 0.0.1
+
+    $ gem dependent XXX --source http://rubygems.org --no-progress | wc -l
+
+    # Fun-facts from 2010-11-03
+    bundler: 263
+    activesupport: 983
+    activerecord: 566
+
+    hoe: 1454
+    jeweler: 234
+    echoe: 85
+
+    nokogiri: 516
+    hpricot: 297
 
 TODO
 =====
- - tests should run against a fixture/fakeweb
- - support `--local` / `--remote URL`
  - include reverse dependencies (a > b > c --> a = [b,c])
 
 Author
