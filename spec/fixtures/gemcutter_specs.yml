@@ -1,0 +1,9008 @@
+--- 
+- - _
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - _
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 1
+    version: "1.1"
+  - ruby
+- - _
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 2
+    version: "1.2"
+  - ruby
+- - "-"
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 1
+    version: "1"
+  - ruby
+- - 10io-jekyll
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 7
+    - 0
+    version: 0.7.0
+  - ruby
+- - 1234567890_
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - 2Performant
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 0
+    - 8
+    version: 0.0.8
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 0
+    - 8
+    version: 0.0.8
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 0
+    - 3
+    version: 1.0.3
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 0
+    - 4
+    version: 1.0.4
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 0
+    - 5
+    version: 1.0.5
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 0
+    - 6
+    version: 1.0.6
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 0
+    - 7
+    version: 1.0.7
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 0
+    - 8
+    version: 1.0.8
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 0
+    - 9
+    version: 1.0.9
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 0
+    - 10
+    version: 1.0.10
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 1
+    - 1
+    version: 1.1.1
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 1
+    - 2
+    version: 1.1.2
+  - ruby
+- - 360_services
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 1
+    - 3
+    version: 1.1.3
+  - ruby
+- - 3scale_client
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 0
+    - 1
+    version: 2.0.1
+  - ruby
+- - 3scale_client
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 2
+    - 4
+    version: 2.2.4
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 0
+    - 3
+    version: 1.0.3
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 0
+    - 4
+    version: 1.0.4
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 0
+    - 5
+    version: 1.0.5
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 1
+    - 1
+    version: 1.1.1
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 2
+    - 3
+    version: 1.2.3
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 2
+    - 4
+    version: 1.2.4
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 2
+    - 5
+    version: 1.2.5
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 3
+    - 2
+    version: 1.3.2
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 3
+    - 3
+    version: 1.3.3
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 3
+    - 4
+    version: 1.3.4
+  - ruby
+- - 4info
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 0
+    - 0
+    version: 2.0.0
+  - ruby
+- - 6twenty-google_translate
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - 7digital
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - 7digital
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - a
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - a
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - a13g
+  - !ruby/object:Gem::Version 
+    hash: 299253571
+    segments: 
+    - 0
+    - 1
+    - 0
+    - beta3
+    version: 0.1.0.beta3
+  - ruby
+- - a13g
+  - !ruby/object:Gem::Version 
+    hash: 299253568
+    segments: 
+    - 0
+    - 1
+    - 0
+    - beta4
+    version: 0.1.0.beta4
+  - ruby
+- - a2ws
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 1
+    - 9
+    version: 0.1.9
+  - ruby
+- - aa
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - aa
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 1
+    version: "1.1"
+  - ruby
+- - aaalex-off_github
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 1
+    - 2
+    version: 1.1.2
+  - ruby
+- - aalib-ruby
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - aargvark
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 0
+    - 14
+    version: 0.0.14
+  - ruby
+- - aargvark
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 0
+    - 15
+    version: 0.0.15
+  - ruby
+- - aaronh-chronic
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 3
+    - 9
+    version: 0.3.9
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 0
+    - 0
+    version: 2.0.0
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 0
+    - 1
+    version: 2.0.1
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 0
+    - 2
+    version: 2.0.2
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 0
+    - 4
+    version: 2.0.4
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 2
+    - 0
+    - 5
+    version: 2.0.5
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 2
+    - 0
+    - 6
+    version: 2.0.6
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 2
+    - 0
+    - 7
+    version: 2.0.7
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 2
+    - 1
+    - 1
+    version: 2.1.1
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 1
+    - 3
+    version: 2.1.3
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 2
+    - 1
+    - 4
+    version: 2.1.4
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 2
+    - 1
+    - 5
+    version: 2.1.5
+  - ruby
+- - aasm
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 2
+    - 0
+    version: 2.2.0
+  - ruby
+- - a_b
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - a_b
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - abacus
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - abebooks4r
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - abel
+  - !ruby/object:Gem::Version 
+    hash: 237
+    segments: 
+    - 10
+    - 0
+    - 0
+    - 1
+    version: 10.0.0.1
+  - ruby
+- - abgabenrechner
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - abgabenrechner
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - abingo_port
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - abiquo
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 4
+    - 13
+    version: 0.4.13
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 4
+    - 14
+    version: 0.4.14
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 4
+    - 15
+    version: 0.4.15
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 0
+    - 4
+    - 16
+    version: 0.4.16
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 45
+    segments: 
+    - 0
+    - 4
+    - 17
+    version: 0.4.17
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 43
+    segments: 
+    - 0
+    - 4
+    - 18
+    version: 0.4.18
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 41
+    segments: 
+    - 0
+    - 4
+    - 19
+    version: 0.4.19
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 39
+    segments: 
+    - 0
+    - 4
+    - 20
+    version: 0.4.20
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 35
+    segments: 
+    - 0
+    - 4
+    - 22
+    version: 0.4.22
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 33
+    segments: 
+    - 0
+    - 4
+    - 23
+    version: 0.4.23
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 4
+    - 24
+    version: 0.4.24
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 4
+    - 25
+    version: 0.4.25
+  - ruby
+- - abiquo-etk
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 0
+    - 4
+    - 29
+    version: 0.4.29
+  - ruby
+- - abn
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - abn
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - ABO
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - a_b_plugin
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - abscss
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 0
+    - 0
+    version: 0.0.0
+  - ruby
+- - abscss
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 9
+    - 0
+    version: 0.9.0
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 9
+    - 0
+    - 1
+    version: 0.9.0.1
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 9
+    - 0
+    - 2
+    version: 0.9.0.2
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 0
+    - 9
+    - 1
+    version: 0.9.1
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 9
+    - 2
+    version: 0.9.2
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 0
+    - 10
+    - 0
+    version: 0.10.0
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 0
+    - 10
+    - 1
+    version: 0.10.1
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 0
+    - 3
+    version: 1.0.3
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 0
+    - 4
+    version: 1.0.4
+  - ruby
+- - AbsoluteRenamer
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - AbsoluteRenamer-date
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - AbsoluteRenamer-system
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 0
+    - 8
+    version: 0.0.8
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 0
+    - 9
+    version: 0.0.9
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 0
+    - 10
+    version: 0.0.10
+  - ruby
+- - absolutize
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 0
+    - 11
+    version: 0.0.11
+  - ruby
+- - abstract
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - abstract_analyzer
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 0
+    - 0
+    version: 0.0.0
+  - ruby
+- - abstract_analyzer
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - abstract_analyzer
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - abstract_analyzer
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - abstract_interface
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - abstract_interface
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - abstract_interface
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 1
+    - 3
+    version: 0.1.3
+  - ruby
+- - abstract_interface
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 1
+    - 5
+    version: 0.1.5
+  - ruby
+- - abstract_interface
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 1
+    - 6
+    version: 0.1.6
+  - ruby
+- - abstract_interface
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 1
+    - 7
+    version: 0.1.7
+  - ruby
+- - abstract-interface
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - abstraction
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - abstraction
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - abstraction
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - abstraction
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - abtain_billing
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - abtain_billing
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 2
+    version: "1.02"
+  - ruby
+- - abtain_billing
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 3
+    version: "1.03"
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 0
+    - 3
+    version: 1.0.3
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 0
+    - 4
+    version: 1.0.4
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 0
+    - 5
+    version: 1.0.5
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 0
+    - 6
+    version: 1.0.6
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 0
+    - 7
+    version: 1.0.7
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 0
+    - 8
+    version: 1.0.8
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 0
+    - 9
+    version: 1.0.9
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 1
+    - 1
+    version: 1.1.1
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 1
+    - 2
+    version: 1.1.2
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 2
+    - 3
+    version: 1.2.3
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 2
+    - 4
+    version: 1.2.4
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 2
+    - 5
+    version: 1.2.5
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 2
+    - 6
+    version: 1.2.6
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 3
+    - 2
+    version: 1.3.2
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 3
+    - 3
+    version: 1.3.3
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 3
+    - 4
+    version: 1.3.4
+  - ruby
+- - abundance
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 3
+    - 5
+    version: 1.3.5
+  - ruby
+- - Abundance
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - acamargo-geoip_city
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - acceptable
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - acceptable
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - acceptable
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - accepts-flattened-values
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - accepts-flattened-values
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - accepts-flattened-values
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - accepts-flattened-values
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 1
+    - 3
+    version: 0.1.3
+  - ruby
+- - accept_values_for
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - accept_values_for
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - accept_values_for
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - accept_values_for
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - accept_values_for
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - accept_values_for
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - accept_values_for
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 3
+    - 1
+    version: 0.3.1
+  - ruby
+- - access_control
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - AccessControl
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 2
+    - 6
+    version: 0.2.6
+  - ruby
+- - accessorize
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - accountable
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - account_scopper
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - account_scopper
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 2
+    - 5
+    version: 0.2.5
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 5
+    - 0
+    version: 0.5.0
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 5
+    - 1
+    version: 0.5.1
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    - 0
+    version: 0.6.0
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 7
+    - 0
+    version: 0.7.0
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 7
+    - 2
+    version: 0.7.2
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 7
+    - 3
+    version: 0.7.3
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 7
+    - 4
+    version: 0.7.4
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 7
+    - 5
+    version: 0.7.5
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 7
+    - 6
+    version: 0.7.6
+  - ruby
+- - acdc
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 7
+    - 7
+    version: 0.7.7
+  - ruby
+- - ach
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - ach
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - achdirect-activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 1
+    - 5
+    - 1
+    version: 1.5.1
+  - ruby
+- - achievements
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - achirkunov-spatial_adapter
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - achoo
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 3
+    version: "0.3"
+  - ruby
+- - achoo
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 4
+    - 1
+    version: 0.4.1
+  - ruby
+- - achoo
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 4
+    - 2
+    version: 0.4.2
+  - ruby
+- - ackbar
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - ackbar
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - acl9
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 0
+    - 11
+    - 0
+    version: 0.11.0
+  - ruby
+- - acl9
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 0
+    - 12
+    - 0
+    version: 0.12.0
+  - ruby
+- - aclatraz
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - aclatraz
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - aclatraz
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - aclatraz
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - aclatraz
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 1
+    - 3
+    version: 0.1.3
+  - ruby
+- - acl_plugin
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - acme_japanese_av_actress
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - acrosslite
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - acrosslite
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - acrosslite
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - actic
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - actic
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - action_annotation
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - action_auditor
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - action_controller_observer
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - action_event
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - action_event
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - action_event
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - action_flow
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 4
+    - 0
+    version: 0.4.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 5
+    - 0
+    version: 0.5.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    - 0
+    version: 0.6.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 6
+    - 1
+    version: 0.6.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 7
+    - 0
+    version: 0.7.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 8
+    - 0
+    version: 0.8.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 8
+    - 1
+    version: 0.8.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 9
+    - 0
+    version: 0.9.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 0
+    - 9
+    - 1
+    version: 0.9.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 1
+    - 1
+    version: 1.1.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 1
+    - 2
+    version: 1.1.2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 1
+    - 3
+    version: 1.1.3
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 1
+    - 4
+    version: 1.1.4
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 1
+    - 5
+    version: 1.1.5
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 2
+    - 3
+    version: 1.2.3
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 2
+    - 4
+    version: 1.2.4
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 2
+    - 5
+    version: 1.2.5
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 3
+    - 2
+    version: 1.3.2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 3
+    - 3
+    version: 1.3.3
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 3
+    - 4
+    version: 1.3.4
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 3
+    - 5
+    version: 1.3.5
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 3
+    - 6
+    version: 1.3.6
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 0
+    - 0
+    version: 2.0.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 0
+    - 1
+    version: 2.0.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 0
+    - 2
+    version: 2.0.2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 0
+    - 4
+    version: 2.0.4
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 2
+    - 0
+    - 5
+    version: 2.0.5
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 1
+    - 0
+    version: 2.1.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 2
+    - 1
+    - 1
+    version: 2.1.1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 1
+    - 2
+    version: 2.1.2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 2
+    - 2
+    - 2
+    version: 2.2.2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 2
+    - 2
+    - 3
+    version: 2.2.3
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 3
+    - 2
+    version: 2.3.2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 2
+    - 3
+    - 3
+    version: 2.3.3
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 3
+    - 4
+    version: 2.3.4
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 2
+    - 3
+    - 5
+    version: 2.3.5
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 3
+    - 6
+    version: 2.3.6
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 3
+    - 7
+    version: 2.3.7
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 270495480
+    segments: 
+    - 2
+    - 3
+    - 8
+    - pre1
+    version: 2.3.8.pre1
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 2
+    - 3
+    - 8
+    version: 2.3.8
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 961915992
+    segments: 
+    - 2
+    - 3
+    - 9
+    - pre
+    version: 2.3.9.pre
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 2
+    - 3
+    - 9
+    version: 2.3.9
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 2
+    - 3
+    - 10
+    version: 2.3.10
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 31098225
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta
+    version: 3.0.0.beta
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 299253626
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta2
+    version: 3.0.0.beta2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 299253627
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta3
+    version: 3.0.0.beta3
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 299253624
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta4
+    version: 3.0.0.beta4
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 7712042
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc
+    version: 3.0.0.rc
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 977940607
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc2
+    version: 3.0.0.rc2
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 3
+    - 0
+    - 0
+    version: 3.0.0
+  - ruby
+- - actionmailer
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 3
+    - 0
+    - 1
+    version: 3.0.1
+  - ruby
+- - ActionMailer-Base-to-use-an-absolute-path-template
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - actionmailer_extensions
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - actionmailer_extensions
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - actionmailer_extensions
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 4
+    - 0
+    version: 0.4.0
+  - ruby
+- - actionmailer_host_autoset
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - actionmailer-ironruby
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - actionmailer-ironruby
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - actionmailer-ironruby
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - actionmailer-javamail
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - actionmailer-javamail
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - action_mailer_test_mailing
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - action_mailer_test_via_smtp
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - action_mailer_test_via_smtp
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - action_mailer_test_via_smtp
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - action_mailer_tls
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 1
+    - 3
+    version: 1.1.3
+  - ruby
+- - action_mailer_verp
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - action_mailer_verp
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - action_mailer_verp
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - action_mailer_verp
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - actionmailer-with-request
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - actionmailer-with-request
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - action_messager
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - action_messager
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 9
+    - 0
+    version: 0.9.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 49
+    segments: 
+    - 0
+    - 9
+    - 5
+    version: 0.9.5
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 4
+    - 0
+    version: 1.4.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 5
+    - 0
+    version: 1.5.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 1
+    - 5
+    - 1
+    version: 1.5.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 6
+    - 0
+    version: 1.6.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 7
+    - 0
+    version: 1.7.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 1
+    - 8
+    - 0
+    version: 1.8.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 1
+    - 8
+    - 1
+    version: 1.8.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 1
+    - 9
+    - 0
+    version: 1.9.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 49
+    segments: 
+    - 1
+    - 9
+    - 1
+    version: 1.9.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 1
+    - 10
+    - 1
+    version: 1.10.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 1
+    - 10
+    - 2
+    version: 1.10.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 1
+    - 11
+    - 0
+    version: 1.11.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 1
+    - 11
+    - 1
+    version: 1.11.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 1
+    - 11
+    - 2
+    version: 1.11.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 39
+    segments: 
+    - 1
+    - 12
+    - 0
+    version: 1.12.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 37
+    segments: 
+    - 1
+    - 12
+    - 1
+    version: 1.12.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 35
+    segments: 
+    - 1
+    - 12
+    - 2
+    version: 1.12.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 33
+    segments: 
+    - 1
+    - 12
+    - 3
+    version: 1.12.3
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 1
+    - 12
+    - 4
+    version: 1.12.4
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 45
+    segments: 
+    - 1
+    - 12
+    - 5
+    version: 1.12.5
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 35
+    segments: 
+    - 1
+    - 13
+    - 0
+    version: 1.13.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 33
+    segments: 
+    - 1
+    - 13
+    - 1
+    version: 1.13.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 39
+    segments: 
+    - 1
+    - 13
+    - 2
+    version: 1.13.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 37
+    segments: 
+    - 1
+    - 13
+    - 3
+    version: 1.13.3
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 43
+    segments: 
+    - 1
+    - 13
+    - 4
+    version: 1.13.4
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 41
+    segments: 
+    - 1
+    - 13
+    - 5
+    version: 1.13.5
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 1
+    - 13
+    - 6
+    version: 1.13.6
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 0
+    - 0
+    version: 2.0.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 0
+    - 1
+    version: 2.0.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 0
+    - 2
+    version: 2.0.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 0
+    - 4
+    version: 2.0.4
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 2
+    - 0
+    - 5
+    version: 2.0.5
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 1
+    - 0
+    version: 2.1.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 2
+    - 1
+    - 1
+    version: 2.1.1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 1
+    - 2
+    version: 2.1.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 2
+    - 2
+    - 2
+    version: 2.2.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 2
+    - 2
+    - 3
+    version: 2.2.3
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 3
+    - 2
+    version: 2.3.2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 2
+    - 3
+    - 3
+    version: 2.3.3
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 3
+    - 4
+    version: 2.3.4
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 2
+    - 3
+    - 5
+    version: 2.3.5
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 3
+    - 6
+    version: 2.3.6
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 3
+    - 7
+    version: 2.3.7
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 270495480
+    segments: 
+    - 2
+    - 3
+    - 8
+    - pre1
+    version: 2.3.8.pre1
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 2
+    - 3
+    - 8
+    version: 2.3.8
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 961915992
+    segments: 
+    - 2
+    - 3
+    - 9
+    - pre
+    version: 2.3.9.pre
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 2
+    - 3
+    - 9
+    version: 2.3.9
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 2
+    - 3
+    - 10
+    version: 2.3.10
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 31098225
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta
+    version: 3.0.0.beta
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 299253626
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta2
+    version: 3.0.0.beta2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 299253627
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta3
+    version: 3.0.0.beta3
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 299253624
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta4
+    version: 3.0.0.beta4
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 7712042
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc
+    version: 3.0.0.rc
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 977940607
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc2
+    version: 3.0.0.rc2
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 3
+    - 0
+    - 0
+    version: 3.0.0
+  - ruby
+- - actionpack
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 3
+    - 0
+    - 1
+    version: 3.0.1
+  - ruby
+- - actionpool
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - actionpool
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - ActionPool
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - ActionPool
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - ActionPool
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - ActionPool
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - ActionPool
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - ActionPool
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - action_profiler
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - action_requires
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - action_requires
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - action_requires
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - actionservice
+  - !ruby/object:Gem::Version 
+    hash: 209
+    segments: 
+    - 0
+    - 2
+    - 99
+    version: 0.2.99
+  - ruby
+- - actionservice
+  - !ruby/object:Gem::Version 
+    hash: 223
+    segments: 
+    - 0
+    - 2
+    - 100
+    version: 0.2.100
+  - ruby
+- - actionservice
+  - !ruby/object:Gem::Version 
+    hash: 219
+    segments: 
+    - 0
+    - 2
+    - 102
+    version: 0.2.102
+  - ruby
+- - actionservice
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - action_sms
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - action_sms
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - action_sms
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - action_sms_gateways
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - action_sms_gateways
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - action_sms_gateways
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - action_sms_gateways
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - action_sms_gateways
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - action_sms_gateways
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - action_throttler
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - actiontimer
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - actiontimer
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - ActionTimer
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - ActionTimer
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - ActionTimer
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - ActionTimer
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - ActionTimer
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - actionview-data
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 3
+    - 0
+    - 0
+    version: 3.0.0
+  - ruby
+- - actionview-data
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 3
+    - 0
+    - 1
+    version: 3.0.1
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 5
+    - 0
+    version: 0.5.0
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    - 0
+    version: 0.6.0
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 6
+    - 1
+    version: 0.6.1
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 6
+    - 2
+    version: 0.6.2
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 7
+    - 0
+    version: 0.7.0
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 8
+    - 0
+    version: 0.8.0
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 8
+    - 1
+    version: 0.8.1
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 0
+    - 9
+    - 1
+    version: 0.9.1
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 9
+    - 2
+    version: 0.9.2
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 9
+    - 3
+    version: 0.9.3
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 0
+    - 9
+    - 4
+    version: 0.9.4
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 1
+    - 1
+    version: 1.1.1
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 1
+    - 2
+    version: 1.1.2
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 1
+    - 3
+    version: 1.1.3
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 1
+    - 4
+    version: 1.1.4
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 1
+    - 5
+    version: 1.1.5
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 1
+    - 6
+    version: 1.1.6
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 2
+    - 3
+    version: 1.2.3
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 2
+    - 4
+    version: 1.2.4
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 2
+    - 5
+    version: 1.2.5
+  - ruby
+- - actionwebservice
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 2
+    - 6
+    version: 1.2.6
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 0
+    - 8
+    version: 0.0.8
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 0
+    - 9
+    version: 0.0.9
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 0
+    - 11
+    version: 0.0.11
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 0
+    - 12
+    version: 0.0.12
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 0
+    - 14
+    version: 0.0.14
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 0
+    - 17
+    version: 0.0.17
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 0
+    - 18
+    version: 0.0.18
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 0
+    - 0
+    - 21
+    version: 0.0.21
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 0
+    - 0
+    - 22
+    version: 0.0.22
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 49
+    segments: 
+    - 0
+    - 0
+    - 23
+    version: 0.0.23
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 0
+    - 0
+    - 24
+    version: 0.0.24
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 45
+    segments: 
+    - 0
+    - 0
+    - 25
+    version: 0.0.25
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 43
+    segments: 
+    - 0
+    - 0
+    - 26
+    version: 0.0.26
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 41
+    segments: 
+    - 0
+    - 0
+    - 27
+    version: 0.0.27
+  - ruby
+- - Active
+  - !ruby/object:Gem::Version 
+    hash: 39
+    segments: 
+    - 0
+    - 0
+    - 28
+    version: 0.0.28
+  - ruby
+- - active_acl
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_acl
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - activeaclplus
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - activeaclplus
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 3
+    - 1
+    version: 0.3.1
+  - ruby
+- - activeaclplus
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 4
+    - 0
+    version: 0.4.0
+  - ruby
+- - activeaclplus
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 4
+    - 2
+    version: 0.4.2
+  - ruby
+- - activeadmin
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activeadmin
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_api
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_api
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - active_bomb
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 0
+    - 9
+    - 1
+    version: 0.9.1
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 0
+    - 8
+    version: 0.0.8
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 0
+    - 9
+    version: 0.0.9
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 0
+    - 10
+    version: 0.0.10
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 101
+    segments: 
+    - 0
+    - 0
+    - 10
+    - 1
+    version: 0.0.10.1
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 0
+    - 11
+    version: 0.0.11
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 0
+    - 12
+    version: 0.0.12
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 0
+    - 13
+    version: 0.0.13
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 0
+    - 14
+    version: 0.0.14
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 0
+    - 15
+    version: 0.0.15
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 0
+    - 16
+    version: 0.0.16
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 0
+    - 17
+    version: 0.0.17
+  - ruby
+- - active_cart
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 0
+    - 18
+    version: 0.0.18
+  - ruby
+- - active-cart
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_cmis
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_cmis
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_cmis
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - active_collection
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_collection
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - active_collection
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - active_collection
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 2
+    - 4
+    version: 0.2.4
+  - ruby
+- - active_collection
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 2
+    - 5
+    version: 0.2.5
+  - ruby
+- - active_collection
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 2
+    - 6
+    version: 0.2.6
+  - ruby
+- - activecouch
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_device
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_device
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - active_device
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - active_device
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - activedirectory
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 9
+    - 3
+    version: 0.9.3
+  - ruby
+- - activedirectory
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - activedirectory
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - ActiveDirectoryForRuby
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 1
+    - 8
+    version: 0.1.8
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 1
+    version: "0.1"
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 2
+    version: "0.2"
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 3
+    version: "0.3"
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 4
+    version: "0.4"
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 4
+    - 1
+    version: 0.4.1
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 4
+    - 2
+    version: 0.4.2
+  - ruby
+- - activedocument
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 5
+    version: "0.5"
+  - ruby
+- - active_document
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_document
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_document
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - active_documentum
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - active_documentum
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 3
+    - 1
+    version: 0.3.1
+  - ruby
+- - active_documentum
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 3
+    - 2
+    version: 0.3.2
+  - java
+- - active_documentum
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 3
+    - 3
+    version: 0.3.3
+  - java
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 4
+    - 0
+    version: 0.4.0
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 4
+    - 1
+    version: 0.4.1
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 5
+    - 0
+    version: 0.5.0
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 5
+    - 1
+    version: 0.5.1
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    - 0
+    version: 0.6.0
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 6
+    - 1
+    version: 0.6.1
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 6
+    - 2
+    version: 0.6.2
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 6
+    - 3
+    version: 0.6.3
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 6
+    - 4
+    version: 0.6.4
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 6
+    - 5
+    version: 0.6.5
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 6
+    - 6
+    version: 0.6.6
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 7
+    - 0
+    version: 0.7.0
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 8
+    - 0
+    version: 0.8.0
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 8
+    - 1
+    version: 0.8.1
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 8
+    - 2
+    version: 0.8.2
+  - ruby
+- - active_enum
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 9
+    - 0
+    version: 0.9.0
+  - ruby
+- - ActiveExcel
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_exchange
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_exchange
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_exchange
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    - 0
+    version: 0.6.0
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 7
+    - 0
+    version: 0.7.0
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 7
+    - 2
+    version: 0.7.2
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 7
+    - 3
+    version: 0.7.3
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 0
+    - 8
+    - 5
+    version: 0.8.5
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 0
+    - 8
+    - 6
+    version: 0.8.6
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 0
+    - 8
+    - 8
+    version: 0.8.8
+  - ruby
+- - activefacts
+  - !ruby/object:Gem::Version 
+    hash: 45
+    segments: 
+    - 0
+    - 8
+    - 9
+    version: 0.8.9
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 0
+    - 4
+    version: 1.0.4
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 0
+    - 5
+    version: 1.0.5
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 1
+    - 1
+    version: 1.1.1
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 1
+    - 2
+    version: 1.1.2
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 270495465
+    segments: 
+    - 1
+    - 1
+    - 4
+    - pre2
+    version: 1.1.4.pre2
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 1
+    - 4
+    version: 1.1.4
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 1
+    - 5
+    version: 1.1.5
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 1
+    - 6
+    version: 1.1.6
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 1
+    - 7
+    version: 1.1.7
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 1
+    - 8
+    version: 1.1.8
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 1
+    - 1
+    - 9
+    version: 1.1.9
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 1
+    - 11
+    version: 1.1.11
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 1
+    - 13
+    version: 1.1.13
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 2
+    - 3
+    version: 1.2.3
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 2
+    - 4
+    version: 1.2.4
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 2
+    - 5
+    version: 1.2.5
+  - ruby
+- - active-fedora
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 2
+    - 6
+    version: 1.2.6
+  - ruby
+- - activeforcast
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activeforcast
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_form
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_form
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - active_form
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - active_form
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - active_form
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 0
+    - 8
+    version: 0.0.8
+  - ruby
+- - active_forms
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - active_fulfillment
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 0
+    - 10
+    - 0
+    version: 0.10.0
+  - ruby
+- - active_fulfillment
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - activegraph
+  - !ruby/object:Gem::Version 
+    hash: 436503095
+    segments: 
+    - 0
+    - 0
+    - 1
+    - alpha1
+    version: 0.0.1.alpha1
+  - ruby
+- - activegraph
+  - !ruby/object:Gem::Version 
+    hash: 436503092
+    segments: 
+    - 0
+    - 0
+    - 1
+    - alpha2
+    version: 0.0.1.alpha2
+  - ruby
+- - activegraph
+  - !ruby/object:Gem::Version 
+    hash: 299253577
+    segments: 
+    - 0
+    - 0
+    - 1
+    - beta1
+    version: 0.0.1.beta1
+  - ruby
+- - active_graph
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - active_graph
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_graph
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_graph
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - activegraph-agraph
+  - !ruby/object:Gem::Version 
+    hash: 436503095
+    segments: 
+    - 0
+    - 0
+    - 1
+    - alpha1
+    version: 0.0.1.alpha1
+  - ruby
+- - activegroonga
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - activegroonga
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - activegroonga
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - activegroonga
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - active_guards
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_harmony
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 6
+    - 1
+    version: 0.6.1
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 7
+    - 0
+    version: 0.7.0
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 7
+    - 2
+    version: 0.7.2
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 7
+    - 3
+    version: 0.7.3
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 7
+    - 4
+    version: 0.7.4
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 7
+    - 5
+    version: 0.7.5
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 7
+    - 6
+    version: 0.7.6
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 7
+    - 7
+    version: 0.7.7
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 7
+    - 8
+    version: 0.7.8
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 7
+    - 9
+    version: 0.7.9
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 8
+    - 0
+    version: 0.8.0
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 8
+    - 1
+    version: 0.8.1
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 8
+    - 2
+    version: 0.8.2
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 0
+    - 8
+    - 3
+    version: 0.8.3
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 0
+    - 8
+    - 4
+    version: 0.8.4
+  - ruby
+- - active_hash
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 0
+    - 8
+    - 5
+    version: 0.8.5
+  - ruby
+- - active_helper
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_helper
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_helper
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_helper
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - active_helper
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - active_index
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 0
+    - 0
+    version: 0.0.0
+  - ruby
+- - active-keso
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_lastfm
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - active_lastfm
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - active_layer
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 0
+    - 9
+    version: 0.0.9
+  - ruby
+- - active_layer
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 0
+    - 10
+    version: 0.0.10
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 9
+    - 0
+    version: 0.9.0
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 0
+    - 10
+    - 0
+    version: 0.10.0
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 0
+    - 9
+    version: 1.0.9
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - activeldap
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - active_link_to
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_link_to
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - active_link_to
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - active_link_to
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - active_link_to
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - active_link_to
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - active_lucene
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 0
+    - 5
+    - 0
+    version: 0.5.0
+  - ruby
+- - active_lucene
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 5
+    - 1
+    version: 0.5.1
+  - ruby
+- - active_lucene
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 5
+    - 2
+    version: 0.5.2
+  - ruby
+- - active_lucene
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    version: "0.6"
+  - ruby
+- - active_mac
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - activemdb
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activemdb
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - activemdb
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - activemdb
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 0
+    - 3
+    version: 1.0.3
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 3
+    - 2
+    version: 1.3.2
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 4
+    - 0
+    version: 1.4.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 4
+    - 1
+    version: 1.4.1
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 4
+    - 2
+    version: 1.4.2
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 5
+    - 0
+    version: 1.5.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 1
+    - 5
+    - 1
+    version: 1.5.1
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 6
+    - 0
+    version: 1.6.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 7
+    - 0
+    version: 1.7.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 7
+    - 1
+    version: 1.7.1
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 7
+    - 2
+    version: 1.7.2
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 7
+    - 3
+    version: 1.7.3
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 1
+    - 8
+    - 0
+    version: 1.8.0
+  - ruby
+- - activemerchant
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 1
+    - 9
+    - 0
+    version: 1.9.0
+  - ruby
+- - active_merchant
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 5
+    - 2
+    version: 1.5.2
+  - ruby
+- - active_merchant_ccavenue
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activemerchant-est
+  - !ruby/object:Gem::Version 
+    hash: 125
+    segments: 
+    - 1
+    - 4
+    - 2
+    - 5
+    version: 1.4.2.5
+  - ruby
+- - activemerchant-est
+  - !ruby/object:Gem::Version 
+    hash: 123
+    segments: 
+    - 1
+    - 4
+    - 2
+    - 6
+    version: 1.4.2.6
+  - ruby
+- - active_merchant_ideal
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_merchant_ideal
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_merchant_ideal
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - active_merchant_ideal
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 1
+    - 3
+    version: 0.1.3
+  - ruby
+- - active_merchant_ideal
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 1
+    - 4
+    version: 0.1.4
+  - ruby
+- - active_merchant_mollie
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_merchant_ogone
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - active_merchant_ogone
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - activemerchant_patch_for_china
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activemerchant_patch_for_china
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - activemerchant_patch_for_china
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - activemerchant_patch_for_china
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 1
+    - 3
+    version: 0.1.3
+  - ruby
+- - activemerchant_patch_for_china
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 1
+    - 4
+    version: 0.1.4
+  - ruby
+- - activemerchant_patch_for_china
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 1
+    - 5
+    version: 0.1.5
+  - ruby
+- - active_merchant_payline
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_merchant_payline
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_merchant_payline
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - activemerchant-paymentech-orbital
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activemerchant-paymentech-orbital
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - activemerchant-paymentech-orbital
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - activemerchant-paymentech-orbital
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - activemerchant-paymentech-orbital
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - active_merchant_tranzila
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - activemessaging
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    - 0
+    version: 0.6.0
+  - ruby
+- - activemessaging
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 6
+    - 1
+    version: 0.6.1
+  - ruby
+- - activemessaging
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 961915916
+    segments: 
+    - 3
+    - 0
+    - pre
+    version: 3.0.pre
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 31098225
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta
+    version: 3.0.0.beta
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 299253626
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta2
+    version: 3.0.0.beta2
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 299253627
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta3
+    version: 3.0.0.beta3
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 299253624
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta4
+    version: 3.0.0.beta4
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 7712042
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc
+    version: 3.0.0.rc
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 977940607
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc2
+    version: 3.0.0.rc2
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 3
+    - 0
+    - 0
+    version: 3.0.0
+  - ruby
+- - activemodel
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 3
+    - 0
+    - 1
+    version: 3.0.1
+  - ruby
+- - activemodel-error
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_model_listener
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_model_listener
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - active_model_listener
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - active_model_listener
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - active_model_listener
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 2
+    - 4
+    version: 0.2.4
+  - ruby
+- - active_model_listener
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 2
+    - 5
+    version: 0.2.5
+  - ruby
+- - active_mongo
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_mongo
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_mongo
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - active_mongo
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_mongo
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - active_mongo
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - active_nomad
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - activeobject
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - activeobject
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - active_olap
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - active_olap
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - active_olap
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - active_olap
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 1
+    - 2
+    version: 1.1.2
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - active_presenter
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - active_presenter_generator
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - active_presenter_generator
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 89
+    segments: 
+    - 1
+    - 0
+    - 1
+    - 1
+    version: 1.0.1.1
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 95
+    segments: 
+    - 1
+    - 0
+    - 1
+    - 2
+    version: 1.0.1.2
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 93
+    segments: 
+    - 1
+    - 0
+    - 1
+    - 3
+    version: 1.0.1.3
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 83
+    segments: 
+    - 1
+    - 0
+    - 1
+    - 4
+    version: 1.0.1.4
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 81
+    segments: 
+    - 1
+    - 0
+    - 1
+    - 5
+    version: 1.0.1.5
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 87
+    segments: 
+    - 1
+    - 0
+    - 1
+    - 6
+    version: 1.0.1.6
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 1
+    - 4
+    version: 1.1.4
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 1
+    - 6
+    version: 1.1.6
+  - ruby
+- - active_presenters
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 1
+    - 7
+    version: 1.1.7
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 0
+    - 3
+    version: 0.0.3
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 0
+    - 4
+    version: 0.0.4
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 0
+    - 5
+    version: 0.0.5
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 0
+    - 6
+    version: 0.0.6
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 0
+    - 7
+    version: 0.0.7
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 0
+    - 8
+    version: 0.0.8
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 0
+    - 9
+    version: 0.0.9
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 1
+    - 3
+    version: 0.1.3
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 1
+    - 4
+    version: 0.1.4
+  - ruby
+- - activequeue
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 1
+    - 5
+    version: 0.1.5
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 1
+    version: "1.1"
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 2
+    version: "1.2"
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 2
+    - 3
+    version: 1.2.3
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 3
+    version: "1.3"
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 4
+    version: "1.4"
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 5
+    version: "1.5"
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 6
+    version: "1.6"
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 6
+    - 1
+    version: 1.6.1
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 6
+    - 2
+    version: 1.6.2
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 6
+    - 3
+    version: 1.6.3
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 6
+    - 4
+    version: 1.6.4
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 6
+    - 5
+    version: 1.6.5
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 6
+    - 6
+    version: 1.6.6
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 6
+    - 8
+    version: 1.6.8
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 6
+    - 9
+    version: 1.6.9
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 6
+    - 10
+    version: 1.6.10
+  - ruby
+- - activerdf
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 6
+    - 11
+    version: 1.6.11
+  - ruby
+- - activerdf_jena
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 1
+    version: "0.1"
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 6
+    - 11
+    version: 1.6.11
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 6
+    - 12
+    version: 1.6.12
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 6
+    - 13
+    version: 1.6.13
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 6
+    - 14
+    version: 1.6.14
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 6
+    - 15
+    version: 1.6.15
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 1
+    - 6
+    - 16
+    version: 1.6.16
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 7
+    - 0
+    version: 1.7.0
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 7
+    - 1
+    version: 1.7.1
+  - ruby
+- - activerdf_net7
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 7
+    - 2
+    version: 1.7.2
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 1
+    version: "1.1"
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 2
+    version: "1.2"
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 2
+    - 3
+    version: 1.2.3
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 3
+    version: "1.3"
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 4
+    version: "1.4"
+  - ruby
+- - activerdf_rdflite
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 1
+    - 4
+    - 1
+    version: 1.4.1
+  - ruby
+- - activerdf_redland
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - activerdf_redland
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 1
+    version: "1.1"
+  - ruby
+- - activerdf_redland
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 2
+    version: "1.2"
+  - ruby
+- - activerdf_redland
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - activerdf_redland
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 2
+    - 2
+    version: 1.2.2
+  - ruby
+- - activerdf_rules
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - activerdf_rules
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 0
+    - 2
+    version: 0.0.2
+  - ruby
+- - activerdf_sesame
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 0
+    - 1
+    version: "0.1"
+  - ruby
+- - activerdf_sesame
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 2
+    version: "0.2"
+  - ruby
+- - activerdf_sesame
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - activerdf_sesame
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 0
+    version: "1.0"
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 1
+    - 1
+    version: "1.1"
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 2
+    version: "1.2"
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 2
+    - 1
+    version: 1.2.1
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 1
+    - 3
+    version: "1.3"
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 1
+    - 3
+    - 1
+    version: 1.3.1
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 3
+    - 2
+    version: 1.3.2
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 1
+    - 3
+    - 3
+    version: 1.3.3
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 3
+    - 4
+    version: 1.3.4
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 3
+    - 5
+    version: 1.3.5
+  - ruby
+- - activerdf_sparql
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 3
+    - 6
+    version: 1.3.6
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 1
+    - 0
+    version: 1.1.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 1
+    - 2
+    - 0
+    version: 1.2.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 1
+    - 3
+    - 0
+    version: 1.3.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 1
+    - 4
+    - 0
+    version: 1.4.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 1
+    - 5
+    - 0
+    version: 1.5.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 1
+    - 5
+    - 1
+    version: 1.5.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 1
+    - 6
+    - 0
+    version: 1.6.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 1
+    - 7
+    - 0
+    version: 1.7.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 1
+    - 8
+    - 0
+    version: 1.8.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 1
+    - 9
+    - 0
+    version: 1.9.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 49
+    segments: 
+    - 1
+    - 9
+    - 1
+    version: 1.9.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 1
+    - 10
+    - 0
+    version: 1.10.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 1
+    - 10
+    - 1
+    version: 1.10.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 1
+    - 11
+    - 0
+    version: 1.11.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 1
+    - 11
+    - 1
+    version: 1.11.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 37
+    segments: 
+    - 1
+    - 12
+    - 1
+    version: 1.12.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 35
+    segments: 
+    - 1
+    - 12
+    - 2
+    version: 1.12.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 35
+    segments: 
+    - 1
+    - 13
+    - 0
+    version: 1.13.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 33
+    segments: 
+    - 1
+    - 13
+    - 1
+    version: 1.13.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 39
+    segments: 
+    - 1
+    - 13
+    - 2
+    version: 1.13.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 1
+    - 14
+    - 0
+    version: 1.14.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 45
+    segments: 
+    - 1
+    - 14
+    - 1
+    version: 1.14.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 43
+    segments: 
+    - 1
+    - 14
+    - 2
+    version: 1.14.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 41
+    segments: 
+    - 1
+    - 14
+    - 3
+    version: 1.14.3
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 39
+    segments: 
+    - 1
+    - 14
+    - 4
+    version: 1.14.4
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 43
+    segments: 
+    - 1
+    - 15
+    - 0
+    version: 1.15.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 41
+    segments: 
+    - 1
+    - 15
+    - 1
+    version: 1.15.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 47
+    segments: 
+    - 1
+    - 15
+    - 2
+    version: 1.15.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 45
+    segments: 
+    - 1
+    - 15
+    - 3
+    version: 1.15.3
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 35
+    segments: 
+    - 1
+    - 15
+    - 4
+    version: 1.15.4
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 33
+    segments: 
+    - 1
+    - 15
+    - 5
+    version: 1.15.5
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 39
+    segments: 
+    - 1
+    - 15
+    - 6
+    version: 1.15.6
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 0
+    - 0
+    version: 2.0.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 0
+    - 1
+    version: 2.0.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 0
+    - 2
+    version: 2.0.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 0
+    - 4
+    version: 2.0.4
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 2
+    - 0
+    - 5
+    version: 2.0.5
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 1
+    - 0
+    version: 2.1.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 2
+    - 1
+    - 1
+    version: 2.1.1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 1
+    - 2
+    version: 2.1.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 2
+    - 2
+    - 2
+    version: 2.2.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 2
+    - 2
+    - 3
+    version: 2.2.3
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 2
+    - 3
+    - 2
+    version: 2.3.2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 2
+    - 3
+    - 3
+    version: 2.3.3
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 11
+    segments: 
+    - 2
+    - 3
+    - 4
+    version: 2.3.4
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 9
+    segments: 
+    - 2
+    - 3
+    - 5
+    version: 2.3.5
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 3
+    - 6
+    version: 2.3.6
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 2
+    - 3
+    - 7
+    version: 2.3.7
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 270495480
+    segments: 
+    - 2
+    - 3
+    - 8
+    - pre1
+    version: 2.3.8.pre1
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 2
+    - 3
+    - 8
+    version: 2.3.8
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 961915992
+    segments: 
+    - 2
+    - 3
+    - 9
+    - pre
+    version: 2.3.9.pre
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 2
+    - 3
+    - 9
+    version: 2.3.9
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 2
+    - 3
+    - 10
+    version: 2.3.10
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 31098225
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta
+    version: 3.0.0.beta
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 299253626
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta2
+    version: 3.0.0.beta2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 299253627
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta3
+    version: 3.0.0.beta3
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 299253624
+    segments: 
+    - 3
+    - 0
+    - 0
+    - beta4
+    version: 3.0.0.beta4
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 7712042
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc
+    version: 3.0.0.rc
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 977940607
+    segments: 
+    - 3
+    - 0
+    - 0
+    - rc2
+    version: 3.0.0.rc2
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 3
+    - 0
+    - 0
+    version: 3.0.0
+  - ruby
+- - activerecord
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 3
+    - 0
+    - 1
+    version: 3.0.1
+  - ruby
+- - activerecord-activesalesforce-adapter
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 2
+    - 0
+    - 0
+    version: 2.0.0
+  - ruby
+- - activerecord-adonet-sqlserver
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 3
+    - 2
+    version: 0.3.2
+  - ruby
+- - activerecord-adonet-sqlserver
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 3
+    - 3
+    version: 0.3.3
+  - ruby
+- - activerecord-adonet-sqlserver
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 3
+    - 4
+    version: 0.3.4
+  - ruby
+- - activerecord-alt-mongo-adapter
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activerecord-amalgalite-adapter
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 8
+    - 0
+    version: 0.8.0
+  - ruby
+- - active_record_attributes_equality
+  - !ruby/object:Gem::Version 
+    hash: 7712010
+    segments: 
+    - 1
+    - 0
+    - 0
+    - rc
+    version: 1.0.0.rc
+  - ruby
+- - active_record_attributes_equality
+  - !ruby/object:Gem::Version 
+    hash: 15424049
+    segments: 
+    - 1
+    - 0
+    - 0
+    - rc
+    - 2
+    version: 1.0.0.rc.2
+  - ruby
+- - active_record_attributes_equality
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - activerecord_authorails
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - active_record_base_without_table
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - active_record_base_without_table
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - activerecord-cassandra-adapter
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - active_record_connectionless
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 1
+    - 0
+    - 2
+    version: 1.0.2
+  - ruby
+- - activerecord-dbslayer-adapter
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - activerecord-dbslayer-adapter
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 2
+    - 5
+    version: 0.2.5
+  - ruby
+- - activerecord-dbslayer-adapter
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - active_record_defaults
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 1
+    - 0
+    - 1
+    version: 1.0.1
+  - ruby
+- - activerecord-draft_records
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activerecord-draft_records
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - activerecord-draft_records
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - activerecord-draft_records
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - activerecord-draft_records
+  - !ruby/object:Gem::Version 
+    hash: 15
+    segments: 
+    - 0
+    - 4
+    - 0
+    version: 0.4.0
+  - ruby
+- - active_record_encoding
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 0
+    - 10
+    - 1
+    version: 0.10.1
+  - ruby
+- - activerecord_execute_raw
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activerecord_execute_raw
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 1
+    - 1
+    version: 0.1.1
+  - ruby
+- - activerecord_execute_raw
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 1
+    - 2
+    version: 0.1.2
+  - ruby
+- - activerecord-fast-import
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 1
+    - 3
+    version: 0.1.3
+  - ruby
+- - activerecord-fast-import
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 1
+    - 4
+    version: 0.1.4
+  - ruby
+- - activerecord-fast-import
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - active_record_foreign_keys
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 1
+    - 0
+    - 0
+    version: 1.0.0
+  - ruby
+- - active_record_helpers
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activerecord-import
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activerecord-import
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - activerecord-import
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - activerecord-import
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - activerecord-import
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - activerecord-informix-adapter
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 1
+    - 1
+    - 1
+    version: 1.1.1
+  - ruby
+- - activerecord-interbase-adapter
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 1
+    - 0
+    version: 0.1.0
+  - ruby
+- - activerecord-interbase-adapter
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - activerecord-interbase-adapter
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 3
+    - 0
+    version: 0.3.0
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 29
+    segments: 
+    - 0
+    - 0
+    - 1
+    version: 0.0.1
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 23
+    segments: 
+    - 0
+    - 2
+    - 0
+    version: 0.2.0
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 21
+    segments: 
+    - 0
+    - 2
+    - 1
+    version: 0.2.1
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 19
+    segments: 
+    - 0
+    - 2
+    - 2
+    version: 0.2.2
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 2
+    - 3
+    version: 0.2.3
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 31
+    segments: 
+    - 0
+    - 2
+    - 4
+    version: 0.2.4
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 13
+    segments: 
+    - 0
+    - 3
+    version: "0.3"
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 17
+    segments: 
+    - 0
+    - 3
+    - 1
+    version: 0.3.1
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 3
+    segments: 
+    - 0
+    - 4
+    version: "0.4"
+  - ruby
+- - ActiveRecord-JDBC
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 5
+    version: "0.5"
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 6
+    version: "0.6"
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 7
+    version: "0.7"
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 1
+    segments: 
+    - 0
+    - 7
+    - 1
+    version: 0.7.1
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 7
+    segments: 
+    - 0
+    - 7
+    - 2
+    version: 0.7.2
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 27
+    segments: 
+    - 0
+    - 8
+    version: "0.8"
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 8
+    - 1
+    version: 0.8.1
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 59
+    segments: 
+    - 0
+    - 8
+    - 2
+    version: 0.8.2
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 25
+    segments: 
+    - 0
+    - 9
+    version: "0.9"
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 5
+    segments: 
+    - 0
+    - 9
+    - 0
+    - 1
+    version: 0.9.0.1
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 57
+    segments: 
+    - 0
+    - 9
+    - 1
+    version: 0.9.1
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 63
+    segments: 
+    - 0
+    - 9
+    - 2
+    version: 0.9.2
+  - ruby
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 61
+    segments: 
+    - 0
+    - 9
+    - 3
+    version: 0.9.3
+  - java
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 51
+    segments: 
+    - 0
+    - 9
+    - 4
+    version: 0.9.4
+  - java
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 49
+    segments: 
+    - 0
+    - 9
+    - 5
+    version: 0.9.5
+  - java
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 55
+    segments: 
+    - 0
+    - 9
+    - 6
+    version: 0.9.6
+  - java
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 53
+    segments: 
+    - 0
+    - 9
+    - 7
+    version: 0.9.7
+  - java
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 299253597
+    segments: 
+    - 1
+    - 0
+    - 0
+    - beta1
+    version: 1.0.0.beta1
+  - java
+- - activerecord-jdbc-adapter
+  - !ruby/object:Gem::Version 
+    hash: 299253594
+    segments: 
+    - 1
+    - 0
+    - 0
+    - beta2
+    version: 1.0.0.beta2
+  - java
