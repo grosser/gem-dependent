@@ -6,6 +6,10 @@ Usage
 =====
     gem dependent my_gem
 
+Options
+=======
+    --fetch-limit N              Fetch specs for max N gems
+
 Output
 ======
 

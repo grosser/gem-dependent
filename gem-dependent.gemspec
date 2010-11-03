@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
     "Rakefile",
      "Readme.md",
      "VERSION",
+     "gem-dependent.gemspec",
      "lib/rubygems/commands/dependent_command.rb",
      "lib/rubygems/dependent.rb",
      "lib/rubygems_plugin.rb",

@@ -5,7 +5,7 @@ class Gem::Commands::DependentCommand < Gem::Command
   def initialize
     super 'dependent', 'Show which gems depend on a gem'
 
-    add_option('--fetch-limit N', 'Fetch specs for max n gems') do |limit, _|
+    add_option('--fetch-limit N', 'Fetch specs for max N gems') do |limit, _|
       options[:fetch_limit] = limit
     end
   end
@@ -15,7 +15,7 @@ class Gem::Commands::DependentCommand < Gem::Command
   end
 
   def usage
-    "#{program_name} [options] GEMNAME"
+    "#{program_name} GEMNAME"
   end
 
   def execute
