@@ -6,8 +6,9 @@ Usage
 =====
     gem dependent my_gem
 
+    --source URL                 Query this source (e.g. http://gemcutter.org)
     --no-progress                Do not show progress
-
+    --fetch-limit N              Fetch specs for max N gems (for fast debugging)
 
 Output
 ======

@@ -3,7 +3,6 @@ require 'lib/rubygems/dependent' # normal require does not work once gem is inst
 
 describe Gem::Dependent do
   before do
-    Gem.stub!(:sources).and_return ['http://gemcutter.org']
     Gem::SpecFetcher.fetcher = nil # reset cache
   end
 
@@ -27,9 +26,10 @@ describe Gem::Dependent do
     dependencies.map{|name, deps| [name, deps.map{|d| d.name}] }
   end
 
-  def stub_source
-    gem_source = URI.parse('http://gemcutter.org')
-    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(gem_source, 'specs').and_return(fixture)
+  def stub_source(gem_source = nil)
+    gem_source ||= 'http://gemcutter.org'
+    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture)
+    Gem.sources = [gem_source]
   end
 
   it 'finds dependencies for given gem' do
@@ -44,10 +44,10 @@ describe Gem::Dependent do
     dependencies.should == hoe_gems.first(4)
   end
 
-  it "can use given remote" do
-    gem_source = URI.parse('http://foo.bar')
-    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(gem_source, 'specs').and_return(fixture)
-    Gem::Dependent.find('hoe')
+  it "can use given source" do
+    source = 'http://rubygems.org'
+    stub_source(source)
+    Gem::Dependent.find('hoe', :source => source)
   end
 
   it "has a VERSION" do

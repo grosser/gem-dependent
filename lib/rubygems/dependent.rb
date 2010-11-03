@@ -6,7 +6,9 @@ module Gem
     VERSION = File.read( File.join(File.dirname(__FILE__),'..','..','VERSION') ).strip
 
     def self.find(gem, options={})
-      specs_and_sources = all_specs_and_sources
+      specs_and_sources = with_changed_source(options[:source]) do
+        all_specs_and_sources
+      end
 
       if options[:fetch_limit]
         specs_and_sources = specs_and_sources.first(options[:fetch_limit])
@@ -67,6 +69,21 @@ module Gem
       values.sort!{|a,b| a.first <=> b.first}
       values.map!{|pair| pair.last}
       values
+    end
+
+    def self.with_changed_source(sources)
+      sources = [*sources].compact
+      if sources.empty?
+        yield
+      else
+        begin
+          old = Gem.sources
+          Gem.sources = sources
+          yield
+        ensure
+          Gem.sources = old
+        end
+      end
     end
   end
 end

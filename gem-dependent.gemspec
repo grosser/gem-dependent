@@ -12,14 +12,17 @@ Gem::Specification.new do |s|
   s.date = %q{2010-11-03}
   s.email = %q{grosser.michael@gmail.com}
   s.files = [
-    "Rakefile",
+    "Gemfile",
+     "Gemfile.lock",
+     "Rakefile",
      "Readme.md",
      "VERSION",
      "gem-dependent.gemspec",
      "lib/rubygems/commands/dependent_command.rb",
      "lib/rubygems/dependent.rb",
      "lib/rubygems_plugin.rb",
-     "spec/dependent_spec.rb"
+     "spec/dependent_spec.rb",
+     "spec/fixtures/gemcutter_specs.yml"
   ]
   s.homepage = %q{http://github.com/grosser/gem-dependent}
   s.rdoc_options = ["--charset=UTF-8"]
