@@ -2,6 +2,8 @@ require 'rubygems/spec_fetcher'
 
 module Gem
   class Dependent
+    VERSION = File.read( File.join(File.dirname(__FILE__),'..','..','VERSION') ).strip
+
     def self.find(gem, options={})
       specs_and_sources = all_specs_and_sources
       if options[:fetch_limit]
