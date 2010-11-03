@@ -1,8 +1,13 @@
 require 'rubygems/command'
+require 'rubygems/dependent'
 
 class Gem::Commands::DependentCommand < Gem::Command
   def initialize
     super 'dependent', 'Show which gems depend on a gem'
+
+    add_option('--fetch-limit N', 'Fetch specs for max n gems') do |limit, _|
+      options[:fetch_limit] = limit
+    end
   end
 
   def arguments
@@ -10,10 +15,24 @@ class Gem::Commands::DependentCommand < Gem::Command
   end
 
   def usage
-    "#{program_name} GEMNAME"
+    "#{program_name} [options] GEMNAME"
   end
 
   def execute
-    puts "it works #{get_all_gem_names} !?"
+    gem = get_all_gem_names.first
+    gems_and_dependencies = Gem::Dependent.find(gem)
+    gems_and_dependencies.each do |gem, dependencies|
+      requirements = dependencies.map do |dependency|
+        formatted_dependency(dependency)
+      end.join(', ')
+      puts "#{gem} #{requirements}"
+    end
+  end
+
+  private
+
+  def formatted_dependency(dependency)
+    type = " (#{dependency.type})" if dependency.type == :development
+    "#{dependency.requirement}#{type}"
   end
 end

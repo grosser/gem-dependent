@@ -1,3 +1,4 @@
+require 'parallel'
 require 'rubygems/spec_fetcher'
 
 module Gem
@@ -10,10 +11,8 @@ module Gem
         specs_and_sources = specs_and_sources.first(options[:fetch_limit])
       end
 
-      puts "processing #{specs_and_sources.size} gems ..." if options[:verbose]
-
       # fetch dependencies
-      gem_names_and_dependencies = specs_and_sources.map do |spec_tuple, source_uri|
+      gem_names_and_dependencies = Parallel.map(specs_and_sources, :in_threads => 20) do |spec_tuple, source_uri|
         name = spec_tuple.first
         dependencies = dependencies(spec_tuple, source_uri)
         [name, dependencies]
