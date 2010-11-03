@@ -3,10 +3,14 @@ require 'rubygems/dependent'
 
 class Gem::Commands::DependentCommand < Gem::Command
   def initialize
-    super 'dependent', 'Show which gems depend on a gem'
+    super 'dependent', 'Show which gems depend on a gem', :progress => true
 
     add_option('--fetch-limit N', Integer, 'Fetch specs for max N gems (for fast debugging)') do |limit, _|
       options[:fetch_limit] = limit
+    end
+
+    add_option('--no-progress', 'Do not show progress') do
+      options[:progress] = false
     end
   end
 

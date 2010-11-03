@@ -6,6 +6,9 @@ Usage
 =====
     gem dependent my_gem
 
+    --no-progress                Do not show progress
+
+
 Output
 ======
 

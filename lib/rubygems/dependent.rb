@@ -12,12 +12,17 @@ module Gem
         specs_and_sources = specs_and_sources.first(options[:fetch_limit])
       end
 
+      puts "Downloading specs for #{specs_and_sources.size} gems" if options[:progress]
+
       # fetch dependencies
       gem_names_and_dependencies = Parallel.map(specs_and_sources, :in_processes => 20) do |spec_tuple, source_uri|
+        print '.' if options[:progress]
         name = spec_tuple.first
         dependencies = dependencies(spec_tuple, source_uri)
         [name, dependencies]
       end
+
+      print "\n" if options[:progress]
 
       # select those that depend on #{gem}
       gem_names_and_dependencies.map do |_, dependencies|
