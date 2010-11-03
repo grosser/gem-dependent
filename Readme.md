@@ -4,6 +4,7 @@ Install
 
 Usage
 =====
+The first run can take looooong, but after the caches are filled, its pretty fast.
     gem dependent my_gem
 
     --source URL                 Query this source (e.g. http://rubygems.org)

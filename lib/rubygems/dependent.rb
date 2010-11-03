@@ -18,7 +18,10 @@ module Gem
 
       # fetch dependencies
       gem_names_and_dependencies = Parallel.map(specs_and_sources, :in_processes => 20) do |spec_tuple, source_uri|
-        print '.' if options[:progress]
+        if options[:progress]
+          print '.'
+          $stdout.flush if rand(20) == 0 # make progress visible
+        end
         name = spec_tuple.first
         dependencies = dependencies(spec_tuple, source_uri)
         [name, dependencies]
