@@ -34,6 +34,8 @@ Output
 TODO
 =====
  - include reverse dependencies (a > b > c --> a = [b,c])
+ - add tests for cli interface
+ - add `--type development` support
 
 Author
 ======
