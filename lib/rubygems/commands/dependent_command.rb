@@ -5,7 +5,7 @@ class Gem::Commands::DependentCommand < Gem::Command
   def initialize
     super 'dependent', 'Show which gems depend on a gem'
 
-    add_option('--fetch-limit N', Integer, 'Fetch specs for max N gems') do |limit, _|
+    add_option('--fetch-limit N', Integer, 'Fetch specs for max N gems (for fast debugging)') do |limit, _|
       options[:fetch_limit] = limit
     end
   end

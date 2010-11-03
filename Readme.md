@@ -6,14 +6,11 @@ Usage
 =====
     gem dependent my_gem
 
-Options
-=======
-    --fetch-limit N              Fetch specs for max N gems
-
 Output
 ======
 
     $ gem dependent my_gem
+    ... wait a long time(10min ?), fetching specs for 10k gems ...
     other_gem (1.2.1)
     even_more (0.0.1)
 
