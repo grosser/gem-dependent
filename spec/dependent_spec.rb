@@ -4,16 +4,50 @@ require 'lib/rubygems/dependent' # normal require does not work once gem is inst
 describe Gem::Dependent do
   before do
     Gem.stub!(:sources).and_return ['http://gemcutter.org']
+    Gem::SpecFetcher.fetcher = nil # reset cache
   end
 
-  it 'finds dependencies for autotest' do
-    gem_source = URI.parse('http://gemcutter.org')
-    fixture = YAML.load(File.read('spec/fixtures/gemcutter_specs.yml'))
-    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(gem_source, 'specs').and_return(fixture)
+  let(:fixture){ YAML.load(File.read('spec/fixtures/gemcutter_specs.yml')) }
+  let(:hoe_gems){
+    [
+      ["7digital", ["hoe"]],
+      ["abingo_port", ["hoe"]],
+      ["abundance", ["hoe"]],
+      ["actionview-data", ["hoe"]],
+      ["active_link_to", ["hoe"]],
+      ["activemerchant-paymentech-orbital", ["hoe"]],
+      ["active_nomad", ["hoe"]],
+      ["active_presenter", ["hoe"]],
+      ["activerecord-fast-import", ["hoe"]],
+      ["activerecord-jdbc-adapter", ["hoe"]]
+    ]
+  }
 
-    expected = [["7digital", ["hoe"]], ["abingo_port", ["hoe"]], ["abundance", ["hoe"]], ["actionview-data", ["hoe"]]]
-    dependencies = Gem::Dependent.find('hoe', :fetch_limit => 100)
-    dependencies.map{|name, deps| [name, deps.map{|d| d.name}] }.should == expected
+  def simplify(dependencies)
+    dependencies.map{|name, deps| [name, deps.map{|d| d.name}] }
+  end
+
+  def stub_source
+    gem_source = URI.parse('http://gemcutter.org')
+    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(gem_source, 'specs').and_return(fixture)
+  end
+
+  it 'finds dependencies for given gem' do
+    stub_source
+    dependencies = simplify(Gem::Dependent.find('hoe'))
+    dependencies.should == hoe_gems
+  end
+
+  it "obeys fetch-limit" do
+    stub_source
+    dependencies = simplify(Gem::Dependent.find('hoe', :fetch_limit => 100))
+    dependencies.should == hoe_gems.first(4)
+  end
+
+  it "can use given remote" do
+    gem_source = URI.parse('http://foo.bar')
+    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(gem_source, 'specs').and_return(fixture)
+    Gem::Dependent.find('hoe')
   end
 
   it "has a VERSION" do
