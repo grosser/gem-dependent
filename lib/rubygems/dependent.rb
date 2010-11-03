@@ -7,6 +7,7 @@ module Gem
 
     def self.find(gem, options={})
       specs_and_sources = all_specs_and_sources
+
       if options[:fetch_limit]
         specs_and_sources = specs_and_sources.first(options[:fetch_limit])
       end
@@ -19,9 +20,11 @@ module Gem
       end
 
       # select those that depend on #{gem}
-      gem_names_and_dependencies.select do |_, dependencies|
-        dependencies.any?{|d| d.name == gem}
-      end
+      gem_names_and_dependencies.map do |_, dependencies|
+        found = dependencies.select{|d| d.name == gem}
+        next if found.empty?
+        [_, found]
+      end.compact
     end
 
     private
