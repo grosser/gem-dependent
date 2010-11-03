@@ -12,7 +12,7 @@ module Gem
       end
 
       # fetch dependencies
-      gem_names_and_dependencies = Parallel.map(specs_and_sources, :in_threads => 20) do |spec_tuple, source_uri|
+      gem_names_and_dependencies = Parallel.map(specs_and_sources, :in_processes => 20) do |spec_tuple, source_uri|
         name = spec_tuple.first
         dependencies = dependencies(spec_tuple, source_uri)
         [name, dependencies]
@@ -28,8 +28,13 @@ module Gem
 
     # dependencies for given gem
     def self.dependencies(spec_tuple, source_uri)
-      fetcher = Gem::SpecFetcher.fetcher
-      fetcher.fetch_spec(spec_tuple, URI.parse(source_uri)).dependencies
+      begin
+        fetcher = Gem::SpecFetcher.fetcher
+        fetcher.fetch_spec(spec_tuple, URI.parse(source_uri)).dependencies
+      rescue Gem::RemoteFetcher::FetchError, Zlib::DataError => e
+        $stderr.puts e
+        []
+      end
     end
 
     def self.all_specs_and_sources
