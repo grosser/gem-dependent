@@ -6,7 +6,8 @@ module Gem
     VERSION = File.read( File.join(File.dirname(__FILE__),'..','..','VERSION') ).strip
 
     def self.find(gem, options={})
-      specs_and_sources = with_changed_source(options[:source]) do
+      # get all gems
+      specs_and_sources = with_changed_gem_source(options[:source]) do
         all_specs_and_sources
       end
 
@@ -14,40 +15,50 @@ module Gem
         specs_and_sources = specs_and_sources.first(options[:fetch_limit])
       end
 
-      puts "Downloading specs for #{specs_and_sources.size} gems" if options[:progress]
-
-      # fetch dependencies
-      gem_names_and_dependencies = Parallel.map(specs_and_sources, :in_processes => 20) do |spec_tuple, source_uri|
-        if options[:progress]
-          print '.'
-          $stdout.flush if rand(20) == 0 # make progress visible
-        end
-        name = spec_tuple.first
-        dependencies = dependencies(spec_tuple, source_uri)
-        [name, dependencies]
+      if options[:progress]
+        puts "Downloading specs for #{specs_and_sources.size} gems"
       end
 
+      gems_and_dependencies = fetch_all_dependencies(specs_and_sources) do
+        print_dot if options[:progress]
+      end
       print "\n" if options[:progress]
 
-      # select those that depend on #{gem}
-      gem_names_and_dependencies.map do |_, dependencies|
-        found = dependencies.select{|d| d.name == gem}
-        next if found.empty?
-        [_, found]
-      end.compact
+      select_dependent(gems_and_dependencies, gem)
     end
 
     private
 
-    # dependencies for given gem
-    def self.dependencies(spec_tuple, source_uri)
+    def self.fetch_all_dependencies(specs_and_sources)
+      Parallel.map(specs_and_sources, :in_processes => 20) do |spec, source|
+        yield if block_given?
+        name = spec.first
+        dependencies = fetch_dependencies(spec, source)
+        [name, dependencies]
+      end
+    end
+
+    def self.fetch_dependencies(spec, source)
       begin
         fetcher = Gem::SpecFetcher.fetcher
-        fetcher.fetch_spec(spec_tuple, URI.parse(source_uri)).dependencies
+        fetcher.fetch_spec(spec, URI.parse(source)).dependencies
       rescue Gem::RemoteFetcher::FetchError, Zlib::DataError => e
         $stderr.puts e
         []
       end
+    end
+
+    def self.select_dependent(gems_and_dependencies, gem)
+      gems_and_dependencies.map do |name, dependencies|
+        matching_dependencies = dependencies.select{|d| d.name == gem }
+        next if matching_dependencies.empty?
+        [name, matching_dependencies]
+      end.compact
+    end
+
+    def self.print_dot
+      print '.'
+      $stdout.flush if rand(20) == 0 # make progress visible
     end
 
     def self.all_specs_and_sources
@@ -55,9 +66,9 @@ module Gem
       all = true
       matching_platform = false
       prerelease = false
-      name = Gem::Dependency.new(//i, Gem::Requirement.default)
-      specs_and_sources = fetcher.find_matching name, all, matching_platform, prerelease
-      uniq_by(specs_and_sources){|a|a.first.first} 
+      matcher = Gem::Dependency.new(//, Gem::Requirement.default) # any name, any version
+      specs_and_sources = fetcher.find_matching matcher, all, matching_platform, prerelease
+      uniq_by(specs_and_sources){|a| a.first.first } 
     end
 
     # get unique elements from an array (last found is used)
@@ -74,7 +85,7 @@ module Gem
       values
     end
 
-    def self.with_changed_source(sources)
+    def self.with_changed_gem_source(sources)
       sources = [*sources].compact
       if sources.empty?
         yield
