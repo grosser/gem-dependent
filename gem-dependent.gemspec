@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{gem-dependent}
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Grosser"]
-  s.date = %q{2010-11-04}
+  s.date = %q{2010-11-05}
   s.email = %q{grosser.michael@gmail.com}
   s.files = [
     "Gemfile",
@@ -25,6 +25,14 @@ Gem::Specification.new do |s|
      "spec/fixtures/gemcutter_specs.yml"
   ]
   s.homepage = %q{http://github.com/grosser/gem-dependent}
+  s.post_install_message = %q{**************************************************
+
+Since parallel cannot be a dependency, please install by hand:
+
+gem install parallel
+
+**************************************************
+}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
@@ -38,12 +46,9 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<parallel>, [">= 0.4"])
     else
-      s.add_dependency(%q<parallel>, [">= 0.4"])
     end
   else
-    s.add_dependency(%q<parallel>, [">= 0.4"])
   end
 end
 
