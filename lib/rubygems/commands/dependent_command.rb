@@ -1,5 +1,4 @@
 require 'rubygems/command'
-require 'rubygems/dependent'
 
 class Gem::Commands::DependentCommand < Gem::Command
   def initialize
@@ -27,6 +26,10 @@ class Gem::Commands::DependentCommand < Gem::Command
   end
 
   def execute
+    # only require when it is really needed, otherwise
+    # it would be required every time someone loads rubygems
+    require 'rubygems/dependent'
+
     gem = get_all_gem_names.first
     gems_and_dependencies = Gem::Dependent.find(gem, options)
     gems_and_dependencies.each do |gem, dependencies|
@@ -35,6 +38,9 @@ class Gem::Commands::DependentCommand < Gem::Command
       end.join(', ')
       puts "#{gem} #{requirements}"
     end
+  rescue Object => e
+    $stderr.puts e
+    $stderr.puts e.backtrace
   end
 
   private

@@ -1,6 +1,9 @@
 require 'parallel'
 require 'rubygems/spec_fetcher'
 
+# older parallel versions can produce strange bugs
+puts "update parallel gem" if Parallel::VERSION < '0.5.1'
+
 module Gem
   class Dependent
     VERSION = File.read( File.join(File.dirname(__FILE__),'..','..','VERSION') ).strip
@@ -30,7 +33,7 @@ module Gem
     private
 
     def self.fetch_all_dependencies(specs_and_sources)
-      Parallel.map(specs_and_sources, :in_processes => 20) do |spec, source|
+      Parallel.map(specs_and_sources, :in_processes => 15) do |spec, source|
         yield if block_given?
         name = spec.first
         dependencies = fetch_dependencies(spec, source)
@@ -42,7 +45,7 @@ module Gem
       begin
         fetcher = Gem::SpecFetcher.fetcher
         fetcher.fetch_spec(spec, URI.parse(source)).dependencies
-      rescue Gem::RemoteFetcher::FetchError, Zlib::DataError => e
+      rescue Object => e
         $stderr.puts e
         []
       end
