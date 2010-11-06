@@ -1,5 +1,6 @@
-$LOAD_PATH.unshift File.expand_path('../lib', File.dirname(__FILE__))
-require 'lib/rubygems/dependent' # normal require does not work once gem is installed, wtf...
+# normal require does not work once gem is installed, because its loaded via rubygems
+$LOAD_PATH.unshift File.expand_path('..', File.dirname(__FILE__))
+require 'lib/rubygems/dependent'
 
 describe Gem::Dependent do
   before do
