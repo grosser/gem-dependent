@@ -10,6 +10,8 @@ The first run can take looooong, but after the caches are filled, its pretty fas
     --source URL                 Query this source (e.g. http://rubygems.org)
     --no-progress                Do not show progress
     --fetch-limit N              Fetch specs for max N gems (for fast debugging)
+    --parallel N                 Make N requests in parallel
+
 
 Output
 ======

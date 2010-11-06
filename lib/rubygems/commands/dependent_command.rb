@@ -4,16 +4,20 @@ class Gem::Commands::DependentCommand < Gem::Command
   def initialize
     super 'dependent', 'Show which gems depend on a gem', :progress => true
 
-    add_option('--source URL', 'Query these sources (e.g. http://gemcutter.org)') do |remote, _|
-      options[:source] = remote.to_s.split(',')
+    add_option('--source URL', 'Query these sources (e.g. http://gemcutter.org)') do |n, _|
+      options[:source] = n.to_s.split(',')
     end
 
     add_option('--no-progress', 'Do not show progress') do
       options[:progress] = false
     end
 
-    add_option('--fetch-limit N', Integer, 'Fetch specs for max N gems (for fast debugging)') do |limit, _|
-      options[:fetch_limit] = limit
+    add_option('--fetch-limit N', Integer, 'Fetch specs for max N gems (for fast debugging)') do |n, _|
+      options[:fetch_limit] = n
+    end
+
+    add_option('--parallel N', Integer, 'Make N requests in parallel') do |n, _|
+      options[:parallel] = n
     end
   end
 

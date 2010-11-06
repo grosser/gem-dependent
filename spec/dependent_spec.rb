@@ -51,6 +51,12 @@ describe Gem::Dependent do
     Gem::Dependent.find('hoe', :source => source)
   end
 
+  it "obeys parallel option" do
+    stub_source
+    Parallel.should_receive(:map).with(anything, :in_processes => 3).and_return []
+    Gem::Dependent.find('hoe', :parallel => 3)
+  end
+
   it "has a VERSION" do
     Gem::Dependent::VERSION.should =~ /^\d+\.\d+\.\d+$/
   end

@@ -22,7 +22,7 @@ module Gem
         puts "Downloading specs for #{specs_and_sources.size} gems"
       end
 
-      gems_and_dependencies = fetch_all_dependencies(specs_and_sources) do
+      gems_and_dependencies = fetch_all_dependencies(specs_and_sources, options) do
         print_dot if options[:progress]
       end
       print "\n" if options[:progress]
@@ -32,8 +32,9 @@ module Gem
 
     private
 
-    def self.fetch_all_dependencies(specs_and_sources)
-      Parallel.map(specs_and_sources, :in_processes => 15) do |spec, source|
+    def self.fetch_all_dependencies(specs_and_sources, options)
+      parallel = (options[:parallel] || 15)
+      Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
         yield if block_given?
         name = spec.first
         dependencies = fetch_dependencies(spec, source)
