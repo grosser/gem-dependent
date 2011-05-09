@@ -19,13 +19,13 @@ module Gem
       end
 
       if options[:progress]
-        puts "Downloading specs for #{specs_and_sources.size} gems"
+        $stderr.puts "Downloading specs for #{specs_and_sources.size} gems"
       end
 
       gems_and_dependencies = fetch_all_dependencies(specs_and_sources, options) do
         print_dot if options[:progress]
       end
-      print "\n" if options[:progress]
+      $stderr.print "\n" if options[:progress]
 
       select_dependent(gems_and_dependencies, gem)
     end
@@ -61,8 +61,8 @@ module Gem
     end
 
     def self.print_dot
-      print '.'
-      $stdout.flush if rand(20) == 0 # make progress visible
+      $stderr.print '.'
+      $stderr.flush if rand(20) == 0 # make progress visible
     end
 
     def self.all_specs_and_sources
@@ -72,7 +72,7 @@ module Gem
       prerelease = false
       matcher = Gem::Dependency.new(//, Gem::Requirement.default) # any name, any version
       specs_and_sources = fetcher.find_matching matcher, all, matching_platform, prerelease
-      uniq_by(specs_and_sources){|a| a.first.first } 
+      uniq_by(specs_and_sources){|a| a.first.first }
     end
 
     # get unique elements from an array (last found is used)
