@@ -12,19 +12,6 @@ begin
     gem.email = "grosser.michael@gmail.com"
     gem.homepage = "http://github.com/grosser/#{gem.name}"
     gem.authors = ["Michael Grosser"]
-
-
-    # if parallel was a dependency, every requirement of rubygems would
-    # load parallel, which causes overhead and problems
-    gem.post_install_message = <<-POST_INSTALL_MESSAGE
-#{'*'*50}
-
-Since parallel cannot be a dependency, please install by hand:
-
-gem install parallel
-
-#{'*'*50}
-POST_INSTALL_MESSAGE
   end
 
   Jeweler::GemcutterTasks.new

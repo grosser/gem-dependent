@@ -1,8 +1,5 @@
-require 'parallel'
+require 'rubygems/dependent_parallel'
 require 'rubygems/spec_fetcher'
-
-# older parallel versions can produce strange bugs
-puts "update parallel gem" if Parallel::VERSION < '0.5.1'
 
 module Gem
   class Dependent
@@ -34,7 +31,7 @@ module Gem
 
     def self.fetch_all_dependencies(specs_and_sources, options)
       parallel = (options[:parallel] || 15)
-      Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
+      Gem::Dependent::Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
         yield if block_given?
         name = spec.first
         dependencies = fetch_dependencies(spec, source)

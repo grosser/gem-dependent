@@ -53,7 +53,7 @@ describe Gem::Dependent do
 
   it "obeys parallel option" do
     stub_source
-    Parallel.should_receive(:map).with(anything, :in_processes => 3).and_return []
+    Gem::Dependent::Parallel.should_receive(:map).with(anything, :in_processes => 3).and_return []
     Gem::Dependent.find('hoe', :parallel => 3)
   end
 
