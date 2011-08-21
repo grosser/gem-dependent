@@ -5,6 +5,7 @@ Install
 Usage
 =====
 The first run can take looooong, but after the caches are filled, its pretty fast.
+
     gem dependent my_gem
 
     --source URL                 Query this source (e.g. http://rubygems.org)
@@ -16,11 +17,11 @@ The first run can take looooong, but after the caches are filled, its pretty fas
 Output
 ======
 
-    $ gem dependent my_gem --source http://rubygems.org
+    gem dependent my_gem --source http://rubygems.org
     other_gem >= 1.2.1
     even_more = 0.0.1
 
-    $ gem dependent XXX --source http://rubygems.org --no-progress | wc -l
+    gem dependent XXX --source http://rubygems.org --no-progress | wc -l
 
     # Fun-facts from 2010-11-03
     bundler: 263
@@ -36,12 +37,12 @@ Output
 
 TODO
 =====
- - include reverse dependencies (a > b > c --> a = [b,c])
+ - include nested dependencies (a > b > c --> a = [b,c])
  - add tests for cli interface
  - add `--type development` support
 
 Author
 ======
-[Michael Grosser](http://grosser.it)  
-grosser.michael@gmail.com  
+[Michael Grosser](http://grosser.it)<br/>
+michael@grosse.it<br/>
 Hereby placed under public domain, do what you want, just do not hold me accountable...
