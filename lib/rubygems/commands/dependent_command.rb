@@ -19,6 +19,10 @@ class Gem::Commands::DependentCommand < Gem::Command
     add_option('--parallel N', Integer, 'Make N requests in parallel') do |n, _|
       options[:parallel] = n
     end
+
+    add_option('--all-versions', 'Check against all versions of gems') do
+      options[:all_versions] = true
+    end
   end
 
   def arguments
@@ -36,11 +40,12 @@ class Gem::Commands::DependentCommand < Gem::Command
 
     gem = get_all_gem_names.first
     gems_and_dependencies = Gem::Dependent.find(gem, options)
-    gems_and_dependencies.each do |gem, dependencies|
+    gems_and_dependencies.each do |gem, version, dependencies|
       requirements = dependencies.map do |dependency|
         formatted_dependency(dependency)
       end.join(', ')
-      puts "#{gem} #{requirements}"
+      version = options[:all_versions] ? " (v#{version})" : nil
+      puts "#{gem}#{version} #{requirements}"
     end
   rescue Object => e
     $stderr.puts e

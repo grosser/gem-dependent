@@ -10,26 +10,28 @@ describe Gem::Dependent do
   let(:fixture){ YAML.load(File.read('spec/fixtures/gemcutter_specs.yml')) }
   let(:hoe_gems){
     [
-      ["7digital", ["hoe"]],
-      ["abingo_port", ["hoe"]],
-      ["abundance", ["hoe"]],
-      ["actionview-data", ["hoe"]],
-      ["active_link_to", ["hoe"]],
-      ["activemerchant-paymentech-orbital", ["hoe"]],
-      ["active_nomad", ["hoe"]],
-      ["active_presenter", ["hoe"]],
-      ["activerecord-fast-import", ["hoe"]],
+      ["_", ["hoe"]],
+      ["1234567890_", ["hoe"]],
+      ["actionmailer-javamail", ["hoe"]],
+      ["ActiveExcel", ["hoe"]],
+      ["activefacts", ["hoe"]],
+      ["activeldap", ["hoe"]],
+      ["active_mac", ["hoe"]],
+      ["activemdb", ["hoe"]],
+      ["activerdf_rules", ["hoe"]],
       ["activerecord-jdbc-adapter", ["hoe"]]
     ]
   }
 
   def simplify(dependencies)
-    dependencies.map{|name, deps| [name, deps.map{|d| d.name}] }
+    dependencies.map{|name, version, deps| [name, deps.map{|d| d.name}] }
   end
 
-  def stub_source(gem_source = nil)
+  def stub_source(gem_source = nil, check_against_fixtures = true)
     gem_source ||= 'http://gemcutter.org'
-    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture)
+    if check_against_fixtures
+      Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture)
+    end
     Gem.sources = [gem_source]
   end
 
@@ -42,7 +44,7 @@ describe Gem::Dependent do
   it "obeys fetch-limit" do
     stub_source
     dependencies = simplify(Gem::Dependent.find('hoe', :fetch_limit => 100))
-    dependencies.should == hoe_gems.first(4)
+    dependencies.should == hoe_gems.first(3)
   end
 
   it "can use given source" do
@@ -55,6 +57,12 @@ describe Gem::Dependent do
     stub_source
     Gem::Dependent::Parallel.should_receive(:map).with(anything, :in_processes => 3).and_return []
     Gem::Dependent.find('hoe', :parallel => 3)
+  end
+
+  it "obeys all versions option" do
+    stub_source(nil, false)
+    Gem::Dependent.should_receive(:all_specs_and_sources).with(true)
+    Gem::Dependent.find('hoe', :all_versions => true)
   end
 
   it "has a VERSION" do

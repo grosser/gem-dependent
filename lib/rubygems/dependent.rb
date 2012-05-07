@@ -8,7 +8,7 @@ module Gem
     def self.find(gem, options={})
       # get all gems
       specs_and_sources = with_changed_gem_source(options[:source]) do
-        all_specs_and_sources
+        all_specs_and_sources(options[:all_versions])
       end
 
       if options[:fetch_limit]
@@ -33,27 +33,27 @@ module Gem
       parallel = (options[:parallel] || 15)
       Gem::Dependent::Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
         yield if block_given?
-        name = spec.first
-        dependencies = fetch_dependencies(spec, source)
-        [name, dependencies]
+        name, version = spec[0,2]
+        dependencies = fetch_dependencies(spec, source, options)
+        [name, version, dependencies]
       end
     end
 
-    def self.fetch_dependencies(spec, source)
+    def self.fetch_dependencies(spec, source, options)
       begin
         fetcher = Gem::SpecFetcher.fetcher
         fetcher.fetch_spec(spec, URI.parse(source)).dependencies
       rescue Object => e
-        $stderr.puts e
+        $stderr.puts e unless options[:all_versions]
         []
       end
     end
 
     def self.select_dependent(gems_and_dependencies, gem)
-      gems_and_dependencies.map do |name, dependencies|
-        matching_dependencies = dependencies.select{|d| d.name == gem }
+      gems_and_dependencies.map do |name, version, dependencies|
+        matching_dependencies = dependencies.select{|d| d.name == gem } rescue []
         next if matching_dependencies.empty?
-        [name, matching_dependencies]
+        [name, version, matching_dependencies]
       end.compact
     end
 
@@ -62,14 +62,14 @@ module Gem
       $stderr.flush if rand(20) == 0 # make progress visible
     end
 
-    def self.all_specs_and_sources
+    def self.all_specs_and_sources(all_versions = false)
       fetcher = Gem::SpecFetcher.fetcher
       all = true
       matching_platform = false
       prerelease = false
       matcher = Gem::Dependency.new(//, Gem::Requirement.default) # any name, any version
       specs_and_sources = fetcher.find_matching matcher, all, matching_platform, prerelease
-      uniq_by(specs_and_sources){|a| a.first.first }
+      all_versions ? specs_and_sources : uniq_by(specs_and_sources){|a| a.first.first }
     end
 
     # get unique elements from an array (last found is used)

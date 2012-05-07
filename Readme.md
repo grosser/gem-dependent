@@ -4,7 +4,7 @@ Install
 
 Usage
 =====
-The first run can take looooong, but after the caches are filled, its pretty fast.
+The first run can take looooong, but after the caches are filled, its pretty fast. Checking all versions will take significantly longer.
 
     gem dependent my_gem
 
@@ -12,6 +12,7 @@ The first run can take looooong, but after the caches are filled, its pretty fas
     --no-progress                Do not show progress
     --fetch-limit N              Fetch specs for max N gems (for fast debugging)
     --parallel N                 Make N requests in parallel
+    --all-versions               Check against all versions of gems
 
 
 Output
