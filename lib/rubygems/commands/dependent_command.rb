@@ -19,6 +19,10 @@ class Gem::Commands::DependentCommand < Gem::Command
     add_option('--parallel N', Integer, 'Make N requests in parallel') do |n, _|
       options[:parallel] = n
     end
+
+    add_option('--all-versions', 'Check against all versions of gems') do
+      options[:all_versions] = true
+    end
   end
 
   def arguments

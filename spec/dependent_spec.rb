@@ -27,9 +27,11 @@ describe Gem::Dependent do
     dependencies.map{|name, deps| [name, deps.map{|d| d.name}] }
   end
 
-  def stub_source(gem_source = nil)
+  def stub_source(gem_source = nil, check_against_fixtures = true)
     gem_source ||= 'http://gemcutter.org'
-    Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture)
+    if check_against_fixtures
+      Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture)
+    end
     Gem.sources = [gem_source]
   end
 
@@ -55,6 +57,12 @@ describe Gem::Dependent do
     stub_source
     Gem::Dependent::Parallel.should_receive(:map).with(anything, :in_processes => 3).and_return []
     Gem::Dependent.find('hoe', :parallel => 3)
+  end
+
+  it "obeys all versions option" do
+    stub_source(nil, false)
+    Gem::Dependent.should_receive(:all_specs_and_sources).with(true)
+    Gem::Dependent.find('hoe', :all_versions => true)
   end
 
   it "has a VERSION" do
