@@ -24,7 +24,7 @@ describe Gem::Dependent do
   }
 
   def simplify(dependencies)
-    dependencies.map{|name, deps| [name, deps.map{|d| d.name}] }
+    dependencies.map{|name, version, deps| [name, deps.map{|d| d.name}] }
   end
 
   def stub_source(gem_source = nil, check_against_fixtures = true)

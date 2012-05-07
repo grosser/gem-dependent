@@ -33,9 +33,9 @@ module Gem
       parallel = (options[:parallel] || 15)
       Gem::Dependent::Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
         yield if block_given?
-        name = spec.first
         dependencies = fetch_dependencies(spec, source)
-        [name, dependencies]
+        name, version = spec[0,2]
+        [name, version, dependencies]
       end
     end
 
@@ -50,10 +50,10 @@ module Gem
     end
 
     def self.select_dependent(gems_and_dependencies, gem)
-      gems_and_dependencies.map do |name, dependencies|
-        matching_dependencies = dependencies.select{|d| d.name == gem }
+      gems_and_dependencies.map do |name, version, dependencies|
+        matching_dependencies = dependencies.select{|d| d.name == gem } rescue []
         next if matching_dependencies.empty?
-        [name, matching_dependencies]
+        [name, version, matching_dependencies]
       end.compact
     end
 
