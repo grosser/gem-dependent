@@ -10,15 +10,15 @@ describe Gem::Dependent do
   let(:fixture){ YAML.load(File.read('spec/fixtures/gemcutter_specs.yml')) }
   let(:hoe_gems){
     [
-      ["7digital", ["hoe"]],
-      ["abingo_port", ["hoe"]],
-      ["abundance", ["hoe"]],
-      ["actionview-data", ["hoe"]],
-      ["active_link_to", ["hoe"]],
-      ["activemerchant-paymentech-orbital", ["hoe"]],
-      ["active_nomad", ["hoe"]],
-      ["active_presenter", ["hoe"]],
-      ["activerecord-fast-import", ["hoe"]],
+      ["_", ["hoe"]],
+      ["1234567890_", ["hoe"]],
+      ["actionmailer-javamail", ["hoe"]],
+      ["ActiveExcel", ["hoe"]],
+      ["activefacts", ["hoe"]],
+      ["activeldap", ["hoe"]],
+      ["active_mac", ["hoe"]],
+      ["activemdb", ["hoe"]],
+      ["activerdf_rules", ["hoe"]],
       ["activerecord-jdbc-adapter", ["hoe"]]
     ]
   }
@@ -42,7 +42,7 @@ describe Gem::Dependent do
   it "obeys fetch-limit" do
     stub_source
     dependencies = simplify(Gem::Dependent.find('hoe', :fetch_limit => 100))
-    dependencies.should == hoe_gems.first(4)
+    dependencies.should == hoe_gems.first(3)
   end
 
   it "can use given source" do
