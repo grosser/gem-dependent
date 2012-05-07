@@ -33,18 +33,18 @@ module Gem
       parallel = (options[:parallel] || 15)
       Gem::Dependent::Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
         yield if block_given?
-        dependencies = fetch_dependencies(spec, source)
         name, version = spec[0,2]
+        dependencies = fetch_dependencies(spec, source, options)
         [name, version, dependencies]
       end
     end
 
-    def self.fetch_dependencies(spec, source)
+    def self.fetch_dependencies(spec, source, options)
       begin
         fetcher = Gem::SpecFetcher.fetcher
         fetcher.fetch_spec(spec, URI.parse(source)).dependencies
       rescue Object => e
-        $stderr.puts e
+        $stderr.puts e unless options[:all_versions]
         []
       end
     end
