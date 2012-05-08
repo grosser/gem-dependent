@@ -7,7 +7,7 @@ module Gem
     def self.find(gem, options={})
       # get all gems
       specs_and_sources = with_changed_gem_source(options[:source]) do
-        all_specs_and_sources(options[:all_versions])
+        all_specs_and_sources(:all_versions => options[:all_versions])
       end
 
       if options[:fetch_limit]
@@ -61,14 +61,19 @@ module Gem
       $stderr.flush if rand(20) == 0 # make progress visible
     end
 
-    def self.all_specs_and_sources(all_versions = false)
+    def self.all_specs_and_sources(options={})
       fetcher = Gem::SpecFetcher.fetcher
       all = true
       matching_platform = false
       prerelease = false
       matcher = Gem::Dependency.new(//, Gem::Requirement.default) # any name, any version
       specs_and_sources = fetcher.find_matching matcher, all, matching_platform, prerelease
-      all_versions ? specs_and_sources : uniq_by(specs_and_sources){|a| a.first.first }
+
+      if options[:all_versions]
+        specs_and_sources
+      else
+        uniq_by(specs_and_sources){|a| a.first.first }
+      end
     end
 
     # get unique elements from an array (last found is used)

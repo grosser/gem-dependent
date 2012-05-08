@@ -23,13 +23,13 @@ describe Gem::Dependent do
     ]
   }
 
-  def simplify(dependencies)
+  def simplify_gem_results(dependencies)
     dependencies.map{|name, version, deps| [name, deps.map{|d| d.name}] }
   end
 
-  def stub_source(gem_source = nil, check_against_fixtures = true)
-    gem_source ||= 'http://gemcutter.org'
-    if check_against_fixtures
+  def stub_source(options={})
+    gem_source = options[:source] || 'http://gemcutter.org'
+    if !options[:live]
       Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture)
     end
     Gem.sources = [gem_source]
@@ -37,19 +37,19 @@ describe Gem::Dependent do
 
   it 'finds dependencies for given gem' do
     stub_source
-    dependencies = simplify(Gem::Dependent.find('hoe'))
+    dependencies = simplify_gem_results(Gem::Dependent.find('hoe'))
     dependencies.should == hoe_gems
   end
 
   it "obeys fetch-limit" do
     stub_source
-    dependencies = simplify(Gem::Dependent.find('hoe', :fetch_limit => 100))
+    dependencies = simplify_gem_results(Gem::Dependent.find('hoe', :fetch_limit => 100))
     dependencies.should == hoe_gems.first(3)
   end
 
   it "can use given source" do
     source = 'http://rubygems.org'
-    stub_source(source)
+    stub_source(:source => source)
     Gem::Dependent.find('hoe', :source => source)
   end
 
@@ -60,8 +60,8 @@ describe Gem::Dependent do
   end
 
   it "obeys all versions option" do
-    stub_source(nil, false)
-    Gem::Dependent.should_receive(:all_specs_and_sources).with(true)
+    stub_source :live => true
+    Gem::Dependent.should_receive(:all_specs_and_sources).with(:all_versions => true)
     Gem::Dependent.find('hoe', :all_versions => true)
   end
 

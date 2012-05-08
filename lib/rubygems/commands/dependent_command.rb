@@ -44,7 +44,7 @@ class Gem::Commands::DependentCommand < Gem::Command
       requirements = dependencies.map do |dependency|
         formatted_dependency(dependency)
       end.join(', ')
-      version = options[:all_versions] ? " (v#{version})" : nil
+      version = (options[:all_versions] ? " (v#{version})" : "")
       puts "#{gem}#{version} #{requirements}"
     end
   rescue Object => e
