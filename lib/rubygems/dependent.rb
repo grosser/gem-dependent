@@ -1,10 +1,9 @@
-require 'rubygems/dependent_parallel'
+require 'rubygems/dependent/version'
+require 'rubygems/dependent/parallel'
 require 'rubygems/spec_fetcher'
 
 module Gem
   class Dependent
-    VERSION = File.read( File.join(File.dirname(__FILE__),'..','..','VERSION') ).strip
-
     def self.find(gem, options={})
       # get all gems
       specs_and_sources = with_changed_gem_source(options[:source]) do
