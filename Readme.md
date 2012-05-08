@@ -43,8 +43,12 @@ TODO
  - add tests for cli interface
  - add `--type development` support
 
-Author
-======
+Authors
+=======
+
+### [Contributors](https://github.com/grosser/gem-dependent/contributors)
+ - [Christopher Patuzzo](https://github.com/cpatuzzo)
+
 [Michael Grosser](http://grosser.it)<br/>
 michael@grosse.it<br/>
-Hereby placed under public domain, do what you want, just do not hold me accountable...
+License: MIT
