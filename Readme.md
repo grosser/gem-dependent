@@ -38,6 +38,7 @@ Output
 
 TODO
 =====
+ - NOTE: Dependency.new w/ a regexp is deprecated. Dependency.new called from gem-dependent/lib/rubygems/dependent.rb:70
  - include nested dependencies (a > b > c --> a = [b,c])
  - add tests for cli interface
  - add `--type development` support
