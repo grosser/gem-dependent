@@ -28,7 +28,7 @@ module Gem
 
     private
 
-    def self.fetch_all_dependencies(specs_and_sources, options)
+    def self.fetch_all_dependencies(specs_and_sources, options={})
       parallel = (options[:parallel] || 15)
       Gem::Dependent::Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
         yield if block_given?
@@ -38,7 +38,7 @@ module Gem
       end
     end
 
-    def self.fetch_dependencies(spec, source, options)
+    def self.fetch_dependencies(spec, source, options={})
       begin
         fetcher = Gem::SpecFetcher.fetcher
         fetcher.fetch_spec(spec, URI.parse(source)).dependencies
