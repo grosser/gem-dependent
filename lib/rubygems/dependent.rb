@@ -66,7 +66,7 @@ module Gem
       all = true
       matching_platform = false
       prerelease = false
-      matcher = Gem::Dependency.new(//, Gem::Requirement.default) # any name, any version
+      matcher = without_deprecation_warning { Gem::Dependency.new(//, Gem::Requirement.default) } # any name, any version
       specs_and_sources = fetcher.find_matching matcher, all, matching_platform, prerelease
 
       if options[:all_versions]
@@ -74,6 +74,14 @@ module Gem
       else
         uniq_by(specs_and_sources){|a| a.first.first }
       end
+    end
+
+    def self.without_deprecation_warning(&block)
+      previous = Gem::Deprecate.skip
+      Gem::Deprecate.skip = true
+      yield
+    ensure
+      Gem::Deprecate.skip = previous
     end
 
     # get unique elements from an array (last found is used)
