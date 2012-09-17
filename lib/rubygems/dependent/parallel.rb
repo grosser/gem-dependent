@@ -7,7 +7,7 @@ require 'base64'
 require 'rbconfig'
 
 module Gem;end
-class Gem::Dependent;end
+module Gem::Dependent;end
 class Gem::Dependent::Parallel
   VERSION = '0.5.8'
 
