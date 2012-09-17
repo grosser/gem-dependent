@@ -3,25 +3,35 @@ require 'rubygems/dependent/parallel'
 require 'rubygems/spec_fetcher'
 
 module Gem
-  class Dependent
+  module Dependent
+
     def self.find(gem, options={})
+      options[:progress] ||= true
+      
+      if options[:progress]
+        options[:progress_format] ||= :dot
+        
+        require 'rubygems/dependent/progress_formatter' # Lazily load formatters
+
+        formatter = ProgressFormatter.find(options[:progress_format]).new
+      end
+
       # get all gems
       specs_and_sources = with_changed_gem_source(options[:source]) do
         all_specs_and_sources(:all_versions => options[:all_versions])
       end
 
-      if options[:fetch_limit]
-        specs_and_sources = specs_and_sources.first(options[:fetch_limit])
+      specs_and_sources = specs_and_sources.first(options[:fetch_limit]) if options[:fetch_limit]
+
+      session = { :options => options, :count => specs_and_sources.size }
+
+      formatter.on_init(session) if options[:progress] && formatter.respond_to?(:on_init)
+
+      gems_and_dependencies = fetch_all_dependencies(specs_and_sources, options) do |gem|
+      formatter.on_download(gem) if options[:progress] && formatter.respond_to?(:on_download)
       end
 
-      if options[:progress]
-        $stderr.puts "Downloading specs for #{specs_and_sources.size} gems"
-      end
-
-      gems_and_dependencies = fetch_all_dependencies(specs_and_sources, options) do
-        print_dot if options[:progress]
-      end
-      $stderr.print "\n" if options[:progress]
+      formatter.on_complete if options[:progress] && formatter.respond_to?(:on_complete)
 
       select_dependent(gems_and_dependencies, gem)
     end
@@ -29,11 +39,16 @@ module Gem
     private
 
     def self.fetch_all_dependencies(specs_and_sources, options={})
-      parallel = (options[:parallel] || 15)
+      parallel = (options[:parallel] || 15) # NOTE: 15? A general rule is about 1-4 threads per CPU core
       Gem::Dependent::Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
-        yield if block_given?
         name, version = spec[0,2]
+        
+        gem = { :spec => spec, :source => source, :name => name, :version => version }
+        
+        yield(gem) if block_given?
+        
         dependencies = fetch_dependencies(spec, source, options)
+        
         [name, version, dependencies]
       end
     end
