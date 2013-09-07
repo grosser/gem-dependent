@@ -9,18 +9,30 @@ describe Gem::Dependent do
 
   let(:fixture){ YAML.load(File.read('spec/fixtures/gemcutter_specs.yml')) }
   let(:hoe_gems){
-    [
-      ["_", ["hoe"]],
-      ["1234567890_", ["hoe"]],
-      ["actionmailer-javamail", ["hoe"]],
-      ["ActiveExcel", ["hoe"]],
-      ["activefacts", ["hoe"]],
-      ["activeldap", ["hoe"]],
-      ["active_mac", ["hoe"]],
-      ["activemdb", ["hoe"]],
-      ["activerdf_rules", ["hoe"]],
-      ["activerecord-jdbc-adapter", ["hoe"]]
-    ]
+    if RUBY_VERSION > "2"
+      [
+        ["ActiveExcel", ["hoe"]],
+        ["_", ["hoe"]],
+        ["actionmailer-javamail", ["hoe"]],
+        ["active_mac", ["hoe"]],
+        ["activefacts", ["hoe"]],
+        ["activeldap", ["hoe"]],
+        ["activemdb", ["hoe"]],
+        ["activerdf_rules", ["hoe"]],
+        ["activerecord-jdbc-adapter", ["hoe"]]
+      ]
+    else
+      [
+        ["_", ["hoe"]],
+        ["actionmailer-javamail", ["hoe"]],
+        ["ActiveExcel", ["hoe"]],
+        ["activefacts", ["hoe"]], ["activeldap", ["hoe"]],
+        ["active_mac", ["hoe"]],
+        ["activemdb", ["hoe"]],
+        ["activerdf_rules", ["hoe"]],
+        ["activerecord-jdbc-adapter", ["hoe"]]
+      ]
+    end
   }
 
   def simplify_gem_results(dependencies)
@@ -30,7 +42,13 @@ describe Gem::Dependent do
   def stub_source(options={})
     gem_source = options[:source] || 'http://gemcutter.org'
     if !options[:live]
-      Gem::SpecFetcher.fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture)
+      fetcher = Gem::SpecFetcher.fetcher
+      if RUBY_VERSION > "2"
+        fixture = Gem::NameTuple.from_list(fixture())
+        fetcher.should_receive(:tuples_for).with { |source, type| source.uri == URI.parse(gem_source) && type == :latest }.and_return(fixture)
+      else
+        fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture())
+      end
     end
     Gem.sources = [gem_source]
   end
@@ -44,7 +62,7 @@ describe Gem::Dependent do
   it "obeys fetch-limit" do
     stub_source
     dependencies = simplify_gem_results(Gem::Dependent.find('hoe', :fetch_limit => 100))
-    dependencies.should == hoe_gems.first(3)
+    dependencies.should == hoe_gems.first(RUBY_VERSION >= "2" ? 3 : 2)
   end
 
   it "can use given source" do
