@@ -6,6 +6,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    bump (0.4.2)
     diff-lcs (1.2.4)
     rake (10.1.0)
     rspec (2.14.1)
@@ -21,6 +22,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bump
   gem-dependent!
   rake
   rspec (~> 2)
