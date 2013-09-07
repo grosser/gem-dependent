@@ -50,4 +50,5 @@ Authors
 
 [Michael Grosser](http://grosser.it)<br/>
 michael@grosse.it<br/>
-License: MIT
+License: MIT<br/>
+[![Build Status](https://travis-ci.org/grosser/gem-dependent.png)](https://travis-ci.org/grosser/gem-dependent)
