@@ -32,7 +32,7 @@ module Gem
       parallel = (options[:parallel] || 15)
       Gem::Dependent::Parallel.map(specs_and_sources, :in_processes => parallel) do |spec, source|
         yield if block_given?
-        name, version = if RUBY_VERSION > "2"
+        name, version = if Gem::VERSION > "2"
           [spec.name, spec.version]
         else
           spec[0,2]
@@ -45,7 +45,7 @@ module Gem
     def self.fetch_dependencies(spec, source, options={})
       begin
         fetcher = Gem::SpecFetcher.fetcher
-        if RUBY_VERSION > "2"
+        if Gem::VERSION > "2"
           source.fetch_spec(spec).dependencies
         else
           fetcher.fetch_spec(spec, URI.parse(source)).dependencies
@@ -75,7 +75,7 @@ module Gem
       matching_platform = false
       prerelease = false
       matcher = without_deprecation_warning { Gem::Dependency.new(//, Gem::Requirement.default) } # any name, any version
-      specs_and_sources = if RUBY_VERSION > "2"
+      specs_and_sources = if Gem::VERSION > "2"
         fetcher.search_for_dependency(matcher, matching_platform).first
       else
         fetcher.find_matching matcher, all, matching_platform, prerelease
@@ -84,7 +84,7 @@ module Gem
       if options[:all_versions]
         specs_and_sources
       else
-        uniq_by(specs_and_sources){|a| RUBY_VERSION > "2" ? a.first.name : a.first.first }
+        uniq_by(specs_and_sources){|a| Gem::VERSION > "2" ? a.first.name : a.first.first }
       end
     end
 

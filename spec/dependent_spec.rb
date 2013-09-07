@@ -62,7 +62,7 @@ describe Gem::Dependent do
   it "obeys fetch-limit" do
     stub_source
     dependencies = simplify_gem_results(Gem::Dependent.find('hoe', :fetch_limit => 100))
-    dependencies.should == hoe_gems.first(RUBY_VERSION >= "2" ? 3 : 2)
+    dependencies.should == hoe_gems.first(Gem::VERSION >= "2" ? 3 : 2)
   end
 
   it "can use given source" do
