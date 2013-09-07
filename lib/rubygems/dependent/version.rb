@@ -1,5 +1,5 @@
 module Gem
   class Dependent
-    VERSION = Version = '0.2.3'
+    VERSION = Version = '0.2.4'
   end
 end
