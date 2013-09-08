@@ -16,7 +16,7 @@ class Gem::Commands::DependentCommand < Gem::Command
       options[:fetch_limit] = n
     end
 
-    add_option('--parallel N', Integer, 'Make N requests in parallel') do |n, _|
+    add_option('--parallel N', Integer, 'Make N requests in parallel (default 15)') do |n, _|
       options[:parallel] = n
     end
 
