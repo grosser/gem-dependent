@@ -13,6 +13,7 @@ The first run can take looooong, but after the caches are filled, its pretty fas
     --fetch-limit N              Fetch specs for max N gems (for fast debugging)
     --parallel N                 Make N requests in parallel (default 15)
     --all-versions               Check against all versions of gems
+    --type                       Only look for dependents matching the listed type(s) (default is runtime and development)
 
 
 Output
