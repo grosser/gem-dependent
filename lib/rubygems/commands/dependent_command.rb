@@ -23,6 +23,10 @@ class Gem::Commands::DependentCommand < Gem::Command
     add_option('--all-versions', 'Check against all versions of gems') do
       options[:all_versions] = true
     end
+
+    add_option('--type dependent_type', 'Only look for dependents matching the listed type(s) (default is runtime and development)') do |n, _|
+      options[:type] = n.to_s.split(',').map{|o| o.to_sym }
+    end
   end
 
   def arguments
