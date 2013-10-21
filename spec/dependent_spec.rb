@@ -85,9 +85,10 @@ describe Gem::Dependent do
 
   it "obeys type option" do
     stub_source
-    Gem::Dependent.should_receive(:select_dependent).with(anything, anything, hash_including(:type => :runtime))
-    Gem::Dependent.find('hoe', :type => :runtime)
+    Gem::Dependent.should_receive(:select_dependent).with(anything, anything, hash_including(:type => [:runtime]))
+    Gem::Dependent.find('hoe', :type => [:runtime])
   end
+
   it "has a VERSION" do
     Gem::Dependent::VERSION.should =~ /^\d+\.\d+\.\d+$/
   end

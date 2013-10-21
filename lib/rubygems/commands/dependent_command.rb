@@ -25,7 +25,7 @@ class Gem::Commands::DependentCommand < Gem::Command
     end
 
     add_option('--type dependent_type', 'Only look for dependents matching the listed type(s) (default is runtime and development)') do |n, _|
-      options[:type] = n.to_s.split(',').map{|o| o.to_sym }
+      options[:type] = n.to_s.split(',').map(&:to_sym)
     end
   end
 
