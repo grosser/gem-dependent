@@ -48,6 +48,7 @@ Authors
 
 ### [Contributors](https://github.com/grosser/gem-dependent/contributors)
  - [Christopher Patuzzo](https://github.com/cpatuzzo)
+ - [Jonathan Bush](https://github.com/rhubarbtoast)
 
 [Michael Grosser](http://grosser.it)<br/>
 michael@grosse.it<br/>
