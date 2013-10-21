@@ -23,7 +23,7 @@ module Gem
       end
       $stderr.print "\n" if options[:progress]
 
-      select_dependent(gems_and_dependencies, gem)
+      select_dependent(gems_and_dependencies, gem, options)
     end
 
     private
@@ -56,9 +56,10 @@ module Gem
       end
     end
 
-    def self.select_dependent(gems_and_dependencies, gem)
+    def self.select_dependent(gems_and_dependencies, gem, options={})
+      accepted_types = (options[:type] || [:development, :runtime])
       gems_and_dependencies.map do |name, version, dependencies|
-        matching_dependencies = dependencies.select{|d| d.name == gem } rescue []
+        matching_dependencies = dependencies.select{|d| d.name == gem && accepted_types.include?(d.type) } rescue []
         next if matching_dependencies.empty?
         [name, version, matching_dependencies]
       end.compact
