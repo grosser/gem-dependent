@@ -63,10 +63,6 @@ class Gem::Dependent::Parallel
 
   @init_mutex = Mutex.new
   class << self
-    def init_mutex
-      @init_mutex
-    end
-
     def in_threads(options={:count => 2})
       count, options = extract_count_from_options(options)
 
@@ -193,7 +189,7 @@ class Gem::Dependent::Parallel
         loop do
           break if exception
 
-          index = init_mutex.synchronize { current += 1 }
+          index = @init_mutex.synchronize { current += 1 }
           break if index >= items.size
 
           with_instrumentation items[index], index, options do
@@ -222,7 +218,7 @@ class Gem::Dependent::Parallel
           begin
             loop do
               break if exception
-              index = init_mutex.synchronize { current_index += 1 }
+              index = @init_mutex.synchronize { current_index += 1 }
               break if index >= items.size
 
               output = with_instrumentation items[index], index, options do
