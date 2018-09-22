@@ -45,9 +45,9 @@ describe Gem::Dependent do
       fetcher = Gem::SpecFetcher.fetcher
       if RUBY_VERSION > "2"
         fixture = Gem::NameTuple.from_list(fixture())
-        fetcher.should_receive(:tuples_for).with { |source, type| source.uri == URI.parse(gem_source) && type == :latest }.and_return(fixture)
+        fetcher.should_receive(:tuples_for).and_return(fixture)
       else
-        fetcher.should_receive(:load_specs).with(URI.parse(gem_source), 'specs').and_return(fixture())
+        fetcher.should_receive(:load_specs).and_return(fixture())
       end
     end
     Gem.sources = [gem_source]

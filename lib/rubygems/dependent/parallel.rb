@@ -2,7 +2,7 @@
 # load parallel, which causes overhead and problems
 # copied from https://github.com/grosser/parallel/blob/master/lib/parallel.rb
 
-require 'thread' # to get Thread.exclusive
+require 'thread'
 require 'base64'
 require 'rbconfig'
 
@@ -61,7 +61,12 @@ class Gem::Dependent::Parallel
     end
   end
 
+  @init_mutex = Mutex.new
   class << self
+    def init_mutex
+      @init_mutex
+    end
+
     def in_threads(options={:count => 2})
       count, options = extract_count_from_options(options)
 
@@ -188,7 +193,7 @@ class Gem::Dependent::Parallel
         loop do
           break if exception
 
-          index = Thread.exclusive{ current+=1 }
+          index = init_mutex.synchronize { current += 1 }
           break if index >= items.size
 
           with_instrumentation items[index], index, options do
@@ -217,7 +222,7 @@ class Gem::Dependent::Parallel
           begin
             loop do
               break if exception
-              index = Thread.exclusive{ current_index += 1 }
+              index = init_mutex.synchronize { current_index += 1 }
               break if index >= items.size
 
               output = with_instrumentation items[index], index, options do
