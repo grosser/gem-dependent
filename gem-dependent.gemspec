@@ -9,9 +9,4 @@ Gem::Specification.new "gem-dependent", Gem::Dependent::VERSION do |s|
   s.files = `git ls-files lib/`.split("\n")
   s.license = "MIT"
   s.required_ruby_version = ">= 2.0"
-  cert = File.expand_path("~/.ssh/gem-private-key-grosser.pem")
-  if File.exist?(cert)
-    s.signing_key = cert
-    s.cert_chain = ["gem-public_cert.pem"]
-  end
 end
