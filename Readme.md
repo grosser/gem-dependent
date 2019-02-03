@@ -1,3 +1,5 @@
+*DEPRECATED* rubygems.org now has reverse dependencies https://rubygems.org/gems/parallel/reverse_dependencies
+
 Install
 =======
     sudo gem install gem-dependent
